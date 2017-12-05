@@ -189,6 +189,7 @@ gulp.task('phpcbf', function () {
 function server(done) {
   browser.init({
     proxy: BROWSERSYNC.url,
+    open: "local",
 
     ui: {
       port: 8080
