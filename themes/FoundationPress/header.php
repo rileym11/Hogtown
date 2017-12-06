@@ -35,7 +35,7 @@
 
 		<nav class="site-navigation-top-bar" role="navigation">
 			<!--HeaderLogo --> 
-			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown-logo@3x.jpg' . ' />'  ?> 
+			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown_logo.png' . ' />'  ?> 
 				
 					<h1 id="headertitle"> Hogtown Mascots </h1>
 			 
