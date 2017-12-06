@@ -38,7 +38,7 @@
 			<!--HeaderLogo --> 
 			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown-logo@3x.jpg' . ' />'  ?> 
 				
-					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					<h1 id="headertitle"> Hogtown Mascots </h1>
 			 
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
