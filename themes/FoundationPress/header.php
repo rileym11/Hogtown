@@ -31,7 +31,18 @@
 				
 				<div class="flexyheader"> 
 					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					<button id=headerbutton src="">Build A Quote</button> 
+					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
+					<div class="fixed">
+						<ul class="vertical menu accordion-menu" data-accordion-menu>
+							<li>
+								<a href="#">Menu</a>
+								<ul class="menu vertical nested">
+									<li><a href="#">About</a></li>
+									<li><a href="#">Item 1B</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>

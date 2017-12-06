@@ -2,3 +2,33 @@
 	width: 80px;
 	height: 80px;
 }
+
+.menu {
+	// position: absolute;
+}
+
+.fixed {
+	position: relative;
+	.accordion-menu {
+		position: absolute;
+		right: 25px;
+	}
+}
+
+.mobile-menu-button {
+	color: white;
+}
+
+.dropdown-list {
+	background-color: $whitegrey;
+}
+
+.dropdown-link {
+	font-family: $body-font;
+	font-weight: 600;
+	padding: 1rem;
+	border-bottom: 1px white solid;
+	a {
+		color: $darkgrey;
+	}
+}
