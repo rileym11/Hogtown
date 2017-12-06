@@ -11,19 +11,23 @@
 
 <div class="footer-container">
 	<footer class="footer">
-		<div class="footer-site-links">
-			<a href="">Gallery</a>
-			<a href="">Contact Us</a>
-			<a href="">Our Process</a>
-			<a href="">Services</a>
-			<a href="">About</a>
+		<div class="footer-link-container">
+			<div class="footer-site-links">
+				<a href="">Gallery</a>
+				<a href="">Contact Us</a>
+				<a href="">Our Process</a>
+			</div>
+			<div class="footer-site-links">
+				<a href="">Services</a>
+				<a href="">About</a>
+			</div>
 		</div>
-		<div class= "footer-media-icons">
-			<a href="https://www.facebook.com/hogtownmascots"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-			<a href="https://twitter.com/hogtownmascots"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-			<a href="https://www.instagram.com/hogtownmascots/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.youtube.com/user/HogtownMascots"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-		</div>
+			<div class= "footer-media-icons">
+				<a href="https://www.facebook.com/hogtownmascots"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/hogtownmascots"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/hogtownmascots/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/user/HogtownMascots"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+			</div>
 	</footer>
 </div>
 
