@@ -38,10 +38,8 @@
 			<!--HeaderLogo --> 
 			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown-logo@3x.jpg' . ' />'  ?> 
 				
-				<div class="flexyheader"> 
 					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			<?php echo '<button id=headerbutton src=""> Build A Quote </button>' ?> 
-				</div>
+			 
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
