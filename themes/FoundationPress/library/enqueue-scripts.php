@@ -18,13 +18,13 @@ function foundationpress_asset_path( $filename ) {
 	$filename_split = explode( '.', $filename );
 	$dir = end( $filename_split );
 	$manifest_path = dirname( dirname(__FILE__) ) . '/dist/assets/' . $dir . '/rev-manifest.json';
-	
+
 	if ( file_exists($manifest_path ) ) {
 		$manifest = json_decode( file_get_contents( $manifest_path ), TRUE);
 	} else {
 		$manifest = [];
 	}
-	
+
 	if ( array_key_exists( $filename, $manifest) ) {
 		return $manifest[$filename];
 	}
