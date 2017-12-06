@@ -1,3 +1,5 @@
+@import "src/assets/scss/_hogtown_vars.scss";
+
 // Navigation breakpoints
 .mobile-menu,
 .site-title-bar {
@@ -107,23 +109,25 @@
   background-color: #504b47;
   display: flex; 
   align-items: center;
-  height: 100px;
+  height: 80px;
 }
 
 #headerlogo {
-  width: 90px;
-  height: 80px;
-  margin: 0% 2.5%;
-
+  width: 75px;
+  height: 60px;
+  margin-left: 25px;
 }
 
-.site-desktop-title-top-bar-title {
 
-  a {
-    font-size: 25px;
-
-   }
-
+#headertitle {
+  font-family: $heading-font;
+  color: $whitegrey;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 25px;
 }
+
+
+
 
 

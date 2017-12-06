@@ -37,11 +37,9 @@
 		<nav class="site-navigation-top-bar" role="navigation">
 			<!--HeaderLogo --> 
 			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown-logo@3x.jpg' . ' />'  ?> 
-			<div class="top-bar-left">
-				<div class="site-desktop-title-top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</div>
-			</div>
+				
+					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			 
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
