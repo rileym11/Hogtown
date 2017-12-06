@@ -109,34 +109,31 @@
   background-color: #504b47;
   display: flex; 
   align-items: center;
-  height: 100px;
+  height: 80px;
 }
 
 #headerlogo {
-  width: 90px;
-  height: 80px;
-  margin: 0% 2.5%;
+  width: 75px;
+  height: 60px;
+  margin-left: 25px;
 }
 
+<<<<<<< HEAD
 .flexyheader {
   width: 85%;
   height: auto;
   display: flex;
   justify-content: space-between;
 }
+=======
+>>>>>>> riley
 
 #headertitle {
   font-family: $heading-font;
   color: $whitegrey;
   font-size: 25px;
-}
-
-.flexyheader button {
-  width: 15%;
-  font-family: $heading-font;
-  color: #fff;
-  height: 40px;
-  background-color: #62c7c9;
+  text-align: center;
+  margin-left: 25px;
 }
 
 
