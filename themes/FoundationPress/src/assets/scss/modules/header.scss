@@ -2,12 +2,12 @@
 	background-color: #504b47;
 	display: flex; 
 	align-items: center;
-	height: 80px;
+	height: 9vh;
   }
   
   #headerlogo {
-	width: 65px;
-	height: 50px;
+	width: 60px;
+	height: 47px;
 	
   }
   
@@ -22,13 +22,15 @@
 	font-family: $heading-font;
 	color: $whitegrey;
 	font-size: 25px;
+	padding-right: 55px;
+	margin-bottom: 0px;
 	text-align: center;
   }
 
 
 .headerlogo {
 	width: 80px;
-	height: 80px;
+	height: 70px;
 }
 
 .fixed-menu {
@@ -36,6 +38,7 @@
 	.accordion-menu {
 		position: absolute;
 		right: 0px;
+		top: 15px;
 	}
 }
 
