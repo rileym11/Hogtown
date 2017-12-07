@@ -1,44 +1,41 @@
 .site-navigation-top-bar {
 	background-color: #504b47;
 	display: flex; 
+	height: 5rem;
+}
+
+.flexyheader {
+	width: 100vw;
+	display: flex;
 	align-items: center;
-	height: 9vh;
-  }
+}
   
-  #headerlogo {
+#headerlogo {
 	width: 60px;
 	height: 47px;
-	
-  }
+	margin-left: 1rem;
+	margin-right: auto;
+}
   
-  .flexyheader {
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  
-  #headertitle {
+#headertitle {
 	font-family: $heading-font;
 	color: $whitegrey;
 	font-size: 25px;
-	padding-right: 55px;
 	margin-bottom: 0px;
 	text-align: center;
-  }
-
-
-.headerlogo {
-	width: 80px;
-	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .fixed-menu {
 	position: relative;
+	margin-left: auto;
+	margin-right: 1rem;
+	margin-bottom: 2rem;
 	.accordion-menu {
 		position: absolute;
 		right: 0px;
-		top: 15px;
+		top: 0px;
 	}
 }
 
@@ -48,7 +45,7 @@ a:hover, a:focus {
 
 .mobile-menu-button {
 	color: white;
-	width: 33%;
+	float: right;
 }
 
 .dropdown-list {
@@ -56,6 +53,8 @@ a:hover, a:focus {
 	width: 80vw;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	left: 1rem;
+	top: 1.25rem;
 }
 
 .dropdown-link {
