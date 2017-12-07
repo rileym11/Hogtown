@@ -43,6 +43,7 @@ get_header(); ?>
           <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process5_Final.png" class="our-process-image" alt="Finished Tiger Mascot">
           <p class="our-process-text">3. Deliver</p>
           <p class="our-process-text">We ship your mascot to you</p>
+          <br>
           <a href="" class="front-page-btn">Learn More</a>
         </div>
       </div>

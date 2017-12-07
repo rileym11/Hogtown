@@ -10,17 +10,55 @@
 // Styling the hero image area
       .hero {
         width: 100vw;
-        .hero-text {
-          color: #90867d;
-          font-size: 16px;
-          padding-top: 15px;
+        .build-quote {
+          padding-bottom: 2rem;
+          .hero-text {
+            color: #90867d;
+            font-size: 16px;
+            padding-top: 15px;
+            text-align: center;
+          }
+        }
+      }
+// Styling the 2 buttons on front page
+      .front-page-btn {
+        background: #62C7C9;
+        border: 1px solid #62C7C9;
+        color: white;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        width: 60%;
+      }
+// Styling entire our-process div
+      .our-process {
+        background: #e7dbcf;
+        width: 100vw;
+// Styling the "Our Process" heading
+        h1 {
+          border-bottom: 3px solid #90867d;
+          padding-top: 2rem;
+          margin: 0 auto;
+          text-align: center;
+          width: 50%;
+        }
+// Styling all images in our-process div
+        .our-process-image {
+          display: block;
+          margin: 0 auto;
+          padding-bottom: 2rem;
+          padding-top: 2rem;
+          width: 85vw;
+        }
+// Styling all text in our-proces div
+        .our-process-text {
+          margin: 0;
           text-align: center;
         }
-        .front-page-btn {
-          background: #62C7C9;
-          border: 1px solid #62C7C9;
-          color: white;
-          padding: 10px;
+// Adding padding to bottom div
+        .deliver {
+          padding-bottom: 2rem;
         }
       }
     }

@@ -1,6 +1,36 @@
+.site-navigation-top-bar {
+	background-color: #504b47;
+	display: flex; 
+	align-items: center;
+	height: 9vh;
+  }
+  
+  #headerlogo {
+	width: 60px;
+	height: 47px;
+	
+  }
+  
+  .flexyheader {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  #headertitle {
+	font-family: $heading-font;
+	color: $whitegrey;
+	font-size: 25px;
+	padding-right: 55px;
+	margin-bottom: 0px;
+	text-align: center;
+  }
+
+
 .headerlogo {
 	width: 80px;
-	height: 80px;
+	height: 70px;
 }
 
 .fixed-menu {
@@ -8,6 +38,7 @@
 	.accordion-menu {
 		position: absolute;
 		right: 0px;
+		top: 15px;
 	}
 }
 
@@ -17,6 +48,7 @@ a:hover, a:focus {
 
 .mobile-menu-button {
 	color: white;
+	width: 33%;
 }
 
 .dropdown-list {
