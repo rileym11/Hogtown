@@ -35,7 +35,7 @@
 					<div class="fixed-menu">
 						<ul class="vertical menu accordion-menu" data-accordion-menu>
 							<li class="mobile-menu-button">
-								<a class="mobile-menu-button" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+								<a class="mobile-menu-button" href="#"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
 								<ul class="menu vertical nested dropdown-list">
 									<li class="dropdown-link">
 										<a href="#">About</a>
