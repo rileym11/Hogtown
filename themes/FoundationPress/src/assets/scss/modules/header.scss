@@ -3,16 +3,16 @@
 	height: 80px;
 }
 
-.menu {
-	// position: absolute;
-}
-
-.fixed {
+.fixed-menu {
 	position: relative;
 	.accordion-menu {
 		position: absolute;
-		right: 25px;
+		right: 0px;
 	}
+}
+
+a:hover, a:focus {
+	color: white;
 }
 
 .mobile-menu-button {
@@ -21,14 +21,21 @@
 
 .dropdown-list {
 	background-color: $whitegrey;
+	width: 80vw;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .dropdown-link {
 	font-family: $body-font;
 	font-weight: 600;
-	padding: 1rem;
+	padding: 0.5rem;
 	border-bottom: 1px white solid;
 	a {
 		color: $darkgrey;
 	}
+}
+
+.submenu-link {
+	font-weight: 400;
 }

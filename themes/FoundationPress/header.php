@@ -31,13 +31,32 @@
 				<div class="flexyheader">
 					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
-					<div class="fixed">
+					<div class="fixed-menu">
 						<ul class="vertical menu accordion-menu" data-accordion-menu>
-							<li>
-								<a href="#">Menu</a>
-								<ul class="menu vertical nested">
-									<li><a href="#">About</a></li>
-									<li><a href="#">Item 1B</a></li>
+							<li class="mobile-menu-button">
+								<a class="mobile-menu-button" href="#">Menu</a>
+								<ul class="menu vertical nested dropdown-list">
+									<li class="dropdown-link">
+										<a href="#">About</a>
+										<ul class="menu vertical nested">
+											<li><a href="#">Our Story</a></li>
+											<li><a href="#">Our Process</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-link"><a href="#">Contact Us</a></li>
+									<li class="dropdown-link"><a href="#">Gallery</a></li>
+									<li class="dropdown-link">
+										<a href="#">Services</a>
+										<ul class="menu vertical nested">
+											<li class="submenu-link"><a href="#">Training</a></li>
+											<li class="submenu-link"><a href="#">Cleaning</a></li>
+											<li class="submenu-link"><a href="#">Repair</a></li>
+											<li class="submenu-link"><a href="#">Storage</a></li>
+											<li class="submenu-link"><a href="#">Sesame Street Appearances</a></li>
+											<li class="submenu-link"><a href="#">Accessories and Plush Toys</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-link"><a href="#">Build a Quote</a></li>
 								</ul>
 							</li>
 						</ul>
