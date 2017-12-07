@@ -192,7 +192,7 @@ function server(done) {
     open: "local",
 
     ui: {
-      port: 8080
+      port: 8888
     },
 
   });

@@ -30,7 +30,7 @@
 				<div class="flexyheader"> 
 				<?php echo '<a href="' . esc_url( home_url( '/' ) ) . '"><img id=headerlogo src=' . get_template_directory_uri() . '/dist/assets/images/logo/hogtown_logo.png' . ' /></a>'  ?> 
 
-					<p id="headertitle">Hogtown Mascots</p>
+					<h1 id="headertitle">Hogtown Mascots</h1>
 					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
 					<div class="fixed-menu">
 						<ul class="vertical menu accordion-menu" data-accordion-menu>
