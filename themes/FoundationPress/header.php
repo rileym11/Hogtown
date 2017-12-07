@@ -23,24 +23,26 @@
 	<?php endif; ?>
 
 	<header class="site-header" role="banner">
-		<div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle() ?>>
-			<div class="title-bar-left">
-				<button aria-label="<?php _e( 'Main Menu', 'foundationpress' ); ?>" class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
-				<span class="site-mobile-title title-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</span>
-			</div>
-		</div>
-
 
 		<nav class="site-navigation-top-bar" role="navigation">
 			<!--HeaderLogo --> 
-			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown-logo@3x.jpg' . ' />'  ?> 
-			<div class="top-bar-left">
-				<div class="site-desktop-title-top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown_logo.png' . ' />'  ?> 
+				
+				<div class="flexyheader"> 
+					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
+					<div class="fixed">
+						<ul class="vertical menu accordion-menu" data-accordion-menu>
+							<li>
+								<a href="#">Menu</a>
+								<ul class="menu vertical nested">
+									<li><a href="#">About</a></li>
+									<li><a href="#">Item 1B</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
