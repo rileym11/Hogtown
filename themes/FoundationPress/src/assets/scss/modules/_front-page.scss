@@ -14,6 +14,7 @@
           padding-bottom: 2rem;
           .hero-text {
             color: #90867d;
+            font-family: $heading-font;
             font-size: 16px;
             padding-top: 15px;
             text-align: center;
@@ -25,6 +26,8 @@
         background: #62C7C9;
         border: 1px solid #62C7C9;
         color: white;
+        font-family: $heading-font;
+        font-size: 18px;
         display: block;
         margin: 0 auto;
         padding: 10px;
@@ -38,6 +41,8 @@
 // Styling the "Our Process" heading
         h1 {
           border-bottom: 3px solid #90867d;
+          font-family: $heading-font;
+          font-size: 20px;
           padding-top: 2rem;
           margin: 0 auto;
           text-align: center;
@@ -53,12 +58,65 @@
         }
 // Styling all text in our-proces div
         .our-process-text {
+          font-family: $body-font;
+          font-size: 16px;
+          margin: 0;
+          text-align: center;
+        }
+        .our-process-head {
+          font-family: $heading-font;
+          font-size: 18px;
           margin: 0;
           text-align: center;
         }
 // Adding padding to bottom div
         .deliver {
           padding-bottom: 2rem;
+        }
+      }
+// Styling entire our-mascots div
+      .our-mascots {
+        width: 100vw;
+        padding-bottom: 2rem;
+        h2 {
+          border-bottom: 3px solid #90867d;
+          font-family: $heading-font;
+          font-size: 20px;
+          padding-top: 2rem;
+          margin: 0 auto;
+          text-align: center;
+          width: 50%;
+        }
+        .our-mascots-text {
+          font-family: $body-font;
+          font-size: 16px;
+          margin: 0;
+          padding-bottom: 2rem;
+          padding-top: 2rem;
+          text-align: center;
+        }
+      }
+      .our-services {
+        background: url('/hogtown/wp-content/themes/FoundationPress/src/assets/images/Services/services.png');
+        width: 100vw;
+        padding-bottom: 2rem;
+        h3 {
+          color: white;
+          font-family: $heading-font;
+          font-size: 20px;
+          padding-top: 2rem;
+          margin: 0 auto;
+          text-align: center;
+          width: 50%;
+        }
+        .our-services-text {
+          color: white;
+          font-family: $body-font;
+          font-size: 16px;
+          margin: 0;
+          padding-bottom: 2rem;
+          padding-top: 2rem;
+          text-align: center;
         }
       }
     }
