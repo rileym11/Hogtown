@@ -1,3 +1,31 @@
+.site-navigation-top-bar {
+	background-color: #504b47;
+	display: flex; 
+	align-items: center;
+	height: 80px;
+  }
+  
+  #headerlogo {
+	width: 65px;
+	height: 50px;
+	
+  }
+  
+  .flexyheader {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  #headertitle {
+	font-family: $heading-font;
+	color: $whitegrey;
+	font-size: 25px;
+	text-align: center;
+  }
+
+
 .headerlogo {
 	width: 80px;
 	height: 80px;
@@ -17,6 +45,7 @@ a:hover, a:focus {
 
 .mobile-menu-button {
 	color: white;
+	width: 33%;
 }
 
 .dropdown-list {

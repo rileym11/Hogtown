@@ -26,15 +26,16 @@
 
 		<nav class="site-navigation-top-bar" role="navigation">
 			<!--HeaderLogo --> 
-			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown_logo.png' . ' />'  ?> 
 				
 				<div class="flexyheader"> 
-					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<?php echo '<a href="' . esc_url( home_url( '/' ) ) . '"><img id=headerlogo src=' . get_template_directory_uri() . '/dist/assets/images/logo/hogtown_logo.png' . ' /></a>'  ?> 
+
+					<p id="headertitle">Hogtown Mascots</p>
 					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
 					<div class="fixed-menu">
 						<ul class="vertical menu accordion-menu" data-accordion-menu>
 							<li class="mobile-menu-button">
-								<a class="mobile-menu-button" href="#">Menu</a>
+								<a class="mobile-menu-button" href="#"></a>
 								<ul class="menu vertical nested dropdown-list">
 									<li class="dropdown-link">
 										<a href="#">About</a>
