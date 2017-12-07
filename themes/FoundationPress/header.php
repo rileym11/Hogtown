@@ -25,10 +25,10 @@
 	<header class="site-header" role="banner">
 
 		<nav class="site-navigation-top-bar" role="navigation">
-			<!--HeaderLogo --> 
-			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown_logo.png' . ' />'  ?> 
-				
-				<div class="flexyheader"> 
+			<!--HeaderLogo -->
+			<?php echo '<img id=headerlogo src=' . get_template_directory_uri() .'/dist/assets/images/logo/hogtown_logo.png' . ' />'  ?>
+
+				<div class="flexyheader">
 					<a id="headertitle" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
 					<div class="fixed">
