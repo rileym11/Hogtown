@@ -61,6 +61,18 @@ get_header(); ?>
       </div>
       <div class="brand-slides">
         <div class="slider">
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png"></div>
+          <div></div>
+          <div><img></div>
+        </div>
+      </div>
+      <div class="our-services">
+        <h3>Our Services</h3>
+        <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
+        <a href="" class="front-page-btn">Learn More</a>
+      </div>
+      <div class="testimonial-slides">
+        <div class="slider">
           <div><p>I have to say, you really nailed this. Looks amazing, spot on to the drawing. Great work, John! <br>
           M.B., Los Angeles CA</p></div>
           <div><p>Two words "ABSOLUTELY PERFECT!" People are already asking where I got it, I will definitely send you some biz. <br>
@@ -71,16 +83,6 @@ get_header(); ?>
           T.D., St. Joseph MO</p></div>
         </div>
       </div>
-      <div class="our-services">
-        <h3>Our Services</h3>
-        <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
-        <a href="" class="front-page-btn">Learn More</a>
-      </div>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'template-parts/content', '' ); ?>
-				<?php the_post_navigation(); ?>
-				<?php comments_template(); ?>
-			<?php endwhile;?>
 		</main>
 		<?php get_sidebar(); ?>
 	</div>
