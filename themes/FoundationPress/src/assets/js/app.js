@@ -12,3 +12,10 @@ import './lib/demosite';
 import './lib/foundation-explicit-pieces';
 
 $(document).foundation();
+
+$(document).ready(function(){
+  $('.slider').bxSlider({
+    slideWidth: 375,
+    pager: false
+  });
+});
