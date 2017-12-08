@@ -10,6 +10,9 @@
 // Styling the hero image area
       .hero {
         width: 100vw;
+        img {
+          width: 100vw;
+        }
         .build-quote {
           padding-bottom: 2rem;
           .hero-text {
@@ -98,6 +101,8 @@
       }
       .our-services {
         background: url('/hogtown/wp-content/themes/FoundationPress/src/assets/images/Services/services.png');
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 100vw;
         padding-bottom: 2rem;
         h3 {
@@ -117,6 +122,12 @@
           padding-bottom: 2rem;
           padding-top: 2rem;
           text-align: center;
+        }
+      }
+      .slider {
+        img {
+          height: 100%;
+          width: 100%;
         }
       }
     }

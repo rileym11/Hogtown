@@ -44,7 +44,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 
 		// CDN hosted jQuery placed in the header, as some plugins require that jQuery is loaded in the header.
 		wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', array(), '3.2.1', false );
-
+		wp_enqueue_script( 'bx_slider', "https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js", array('jquery'), '1.0.0', false );
 		// Enqueue Founation scripts
 		wp_enqueue_script( 'foundation', get_template_directory_uri() . '/dist/assets/js/' . foundationpress_asset_path('app.js'), array( 'jquery' ), '2.10.4', true );
 
