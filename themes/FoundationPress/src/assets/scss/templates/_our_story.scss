@@ -1,0 +1,41 @@
+@import '../hogtown_vars.scss';
+
+#story-page {
+    font-family: $body-font;
+    color: $darkgrey;
+    h1, h2, h3 {
+        font-family: $heading-font;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .page-title-container {
+        height:5.9rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        .page-title{
+
+        }
+    }
+    .team-about-container {
+        height: 33.7rem;
+        img {
+            //height: 16.9rem;
+        }
+        .team-about-text{
+
+        }
+    }
+    .owners-content-container {
+        .owners-content {
+            .owner-image {
+
+            }
+            .owner-text {
+
+            }
+        }
+    }
+
+}
