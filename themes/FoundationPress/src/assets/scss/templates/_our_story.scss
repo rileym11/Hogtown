@@ -4,6 +4,7 @@
     font-family: $body-font;
     color: $darkgrey;
     h1, h2, h3 {
+        
         font-family: $heading-font;
         font-weight: 600;
         font-size: 22px;
@@ -15,19 +16,26 @@
         display: flex;
         align-items: center;
         .page-title{
-
+            margin-bottom: 0px;
         }
     }
     .team-about-container {
-        height: 33.7rem;
+        height: 23.7rem;
         img {
             //height: 16.9rem;
         }
         .team-about-text{
-
+            height: 14rem;
+            padding-right: 3.5rem;
+            padding-left: 2.5rem;
+            display: flex;
+            justify-content: center;
+            
+            align-items: center;
         }
     }
     .owners-content-container {
+        background: $lightgrey;
         .owners-content {
             .owner-image {
 
