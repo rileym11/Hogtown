@@ -40,7 +40,7 @@
 									<li class="dropdown-link">
 										<a href="#">About</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="http://localhost:8888/hogtown/our-story/">Our Story</a></li>
+											<li class="submenu-link"><a href="http://localhost:8888/hogtown-redl/our-story/">Our Story</a></li>
 											<li class="submenu-link"><a href="#">Our Process</a></li>
 										</ul>
 									</li>
