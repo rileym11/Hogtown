@@ -12,7 +12,6 @@
 <!doctype html>
 <html class="no-js" <?php language_attributes(); ?> >
 	<head>
-		<link href="https://fonts.googleapis.com/css?family=Nunito|Zilla+Slab" rel="stylesheet">
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
@@ -35,7 +34,7 @@
 					<div class="fixed-menu">
 						<ul class="vertical menu accordion-menu" data-accordion-menu>
 							<li class="mobile-menu-button">
-								<a class="mobile-menu-button" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+								<a class="mobile-menu-button" href="#"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
 								<ul class="menu vertical nested dropdown-list">
 									<li class="dropdown-link">
 										<a href="#">About</a>

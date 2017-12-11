@@ -49,23 +49,40 @@ get_header(); ?>
       </div>
       <div class="our-mascots">
         <h2>Our Mascots</h2>
-        <img src="http://kittentoob.com/wp-content/uploads/2016/10/Tortoiseshell-Cat-2-640x400.jpg" alt="image placeholder">
+        <div class="slider">
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg"></div>
+        </div>
         <p class=our-mascots-text>We make custom mascots for schools, businesses, brands, charities and more. See what we've created and imagine what we could do for you!</p>
         <a href="" class="front-page-btn">View Full Gallery</a>
       </div>
       <div class="brand-slides">
-        <img src="http://kittentoob.com/wp-content/uploads/2016/10/Tortoiseshell-Cat-2-640x400.jpg" alt="image placeholder">
+        <div class="slider">
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png"></div>
+          <div></div>
+          <div><img></div>
+        </div>
       </div>
       <div class="our-services">
         <h3>Our Services</h3>
         <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
         <a href="" class="front-page-btn">Learn More</a>
       </div>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'template-parts/content', '' ); ?>
-				<?php the_post_navigation(); ?>
-				<?php comments_template(); ?>
-			<?php endwhile;?>
+      <div class="testimonial-slides">
+        <div class="slider">
+          <div><p>I have to say, you really nailed this. Looks amazing, spot on to the drawing. Great work, John! <br>
+          M.B., Los Angeles CA</p></div>
+          <div><p>Two words "ABSOLUTELY PERFECT!" People are already asking where I got it, I will definitely send you some biz. <br>
+          A.D., Gaffney SC</p></div>
+          <div><p>I just love it... it is beautiful! I've alreay tried it on and everyone just loved it. The Pricipal of the college and my supervisor were just glowing when everyone gathered around to meet Success. Again thank you for your patience and the beautiful work. <br>
+          J.C., Campbellton, NB</p></div>
+          <div><p>You and your crew are awesome. Thanks so much! I put it on and our head coach took me around. Everyone just loved it. <br>
+          T.D., St. Joseph MO</p></div>
+        </div>
+      </div>
 		</main>
 		<?php get_sidebar(); ?>
 	</div>
