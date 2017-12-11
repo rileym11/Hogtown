@@ -12,10 +12,8 @@
         <img class ="team-about-image" src="../wp-content/themes/FoundationPress/src/assets/images/About-Page/Our-Story/about_us.png" alt="">
         <div class="team-about-text">
             <p>
-                LOREM IPSUM GENERATOR
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. 
+            Our team is comprised of highly skilled mascot specialists
+             who are devoted to overcoming any design or construction challenge they encounter.
             </p>
         </div>
     </section>
