@@ -39,12 +39,12 @@
 									<li class="dropdown-link">
 										<a href="#">About</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="http://localhost:8888/hogtown/our-story/">Our Story</a></li>
-											<li class="submenu-link"><a href="#">Our Process</a></li>
+											<li class="submenu-link"><a href="./hogtown/our-story/">Our Story</a></li>
+											<li class="submenu-link"><a href="./hogtown/our-process/">Our Process</a></li>
 										</ul>
 									</li>
-									<li class="dropdown-link"><a href="#">Contact Us</a></li>
-									<li class="dropdown-link"><a href="#">Gallery</a></li>
+									<li class="dropdown-link"><a href="./contact-us/">Contact Us</a></li>
+									<li class="dropdown-link"><a href="./gallery/">Gallery</a></li>
 									<li class="dropdown-link">
 										<a href="#">Services</a>
 										<ul class="menu vertical nested">

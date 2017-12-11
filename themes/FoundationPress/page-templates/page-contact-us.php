@@ -12,12 +12,15 @@ get_header(); ?>
     If your business, charity, or school is looking for a custom mascot, our team of specialists is here to help!
   </p>
 
+  <?php echo do_shortcode( '[contact-form-7 id="23" title="Contact Page"]' ); ?>
+
   <div class="contact-info">
     <p>Phone: 1-877-622-8422</p>
     <p>Fax: 416-503-1000</p>
     <p>Email: info@hogtownmascots.com</p>
     <p>Hours: Monday to Friday<p>8am-4pm EST</p></p>
   </div>
+
 
   <div class="contact-map">
     <h3>Visit Us in Person!</h3>
