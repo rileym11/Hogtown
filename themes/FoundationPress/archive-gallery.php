@@ -16,16 +16,18 @@
  */
 
 get_header(); ?>
-
 <div class="main-container">
 	<div class="main-grid">
 		<main class="main-content">
-		
-		<?php if ( have_posts() ) : ?>
+		<?php
+   $args = array( 'post_type' => 'product', 'order' => 'ASC', 'posts_per_page' => 8, );
+   $gallery = new WP_Query( $args ); // instantiate our object
+?>
+		<?php if ( $gallery->have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+				<?php get_template_part( 'template-parts/content', 'gallery', get_post_format() ); ?>
 			<?php endwhile; ?>
 
 			<?php else : ?>
@@ -49,6 +51,4 @@ get_header(); ?>
 
 	</div>
 </div>
-<?php get_sidebar(); ?>
-
 <?php get_footer();

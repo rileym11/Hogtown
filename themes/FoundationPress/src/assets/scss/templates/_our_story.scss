@@ -4,6 +4,7 @@
     font-family: $body-font;
     color: $darkgrey;
     h1, h2, h3 {
+        
         font-family: $heading-font;
         font-weight: 600;
         font-size: 22px;
@@ -15,24 +16,53 @@
         display: flex;
         align-items: center;
         .page-title{
-
+            margin-bottom: 0px;
         }
     }
     .team-about-container {
-        height: 33.7rem;
+        height: 23.7rem;
         img {
             //height: 16.9rem;
         }
         .team-about-text{
-
+            height: 14rem;
+            padding-right: 2rem;
+            padding-left: 3.5rem;
+            display: flex;
+            justify-content: center;
+            
+            align-items: center;
         }
     }
     .owners-content-container {
+        background: $lightgrey;
+        height: auto;
+        padding-top: 1.5rem;
+        
         .owners-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
             .owner-image {
 
             }
-            .owner-text {
+            .owners-text {
+                h2{
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1.2rem;
+                    height: 4rem;
+
+                }
+                p{
+                    margin-left: 2.3rem;
+                    margin-right: 2.3rem; 
+                }
 
             }
         }
