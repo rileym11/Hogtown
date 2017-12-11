@@ -16,11 +16,14 @@
         .build-quote {
           padding-bottom: 2rem;
           .hero-text {
-            color: #90867d;
+            color: $brown;
             font-family: $heading-font;
-            font-size: 16px;
-            padding-top: 15px;
+            font-size: 1rem;
+            padding-top: 1rem;
             text-align: center;
+            &visited {
+              color: $brown;
+            }
           }
         }
       }
@@ -50,6 +53,9 @@
           margin: 0 auto;
           text-align: center;
           width: 50%;
+          a {
+            color: $darkgrey;
+          }
         }
 // Styling all images in our-process div
         .our-process-image {
@@ -62,13 +68,14 @@
 // Styling all text in our-proces div
         .our-process-text {
           font-family: $body-font;
-          font-size: 16px;
+          font-size: 1rem;
+          font-weight: 400;
           margin: 0;
           text-align: center;
         }
         .our-process-head {
           font-family: $heading-font;
-          font-size: 18px;
+          font-size: 1.25rem;
           margin: 0;
           text-align: center;
         }

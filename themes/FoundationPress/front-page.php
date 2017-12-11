@@ -27,7 +27,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="our-process">
-        <h1>Our Process</h1>
+        <h1><a class="hero-text" href="./our-process/">Our Process</a></h1>
         <div class="sketch">
           <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process-1.png" class="our-process-image" alt="Sketch of Tiger Mascot">
           <p class="our-process-head">1. Sketch</p>
@@ -35,7 +35,6 @@ get_header(); ?>
           <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process2Jumpsuit1.png" class="our-process-image" alt="Girl Sewing Mascot">
         </div>
         <div class="build">
-          <img src="">
           <p class="our-process-head">2. Build</p>
           <p class="our-process-text">We make the sketch come to life</p>
         </div>
