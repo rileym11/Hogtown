@@ -1,0 +1,46 @@
+@import '../hogtown_vars.scss';
+
+#process-page-title {
+	font-family: $heading-font;
+	color: $darkgrey; 
+	text-align: center;
+	font-size: 35px; 
+	margin: 20px 0px;
+}
+
+.process-about-steps { 
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+}
+
+.our-process-description {
+	margin: 15px 10%;
+	color: $darkgrey; 
+	font-family: $body-font; 
+	font-size: 20px;
+}
+
+.our-process-img {
+	width: 80%;
+	height: 300px;
+	margin: 10px 0px;
+}
+
+.our-process-btn {
+		background: #62C7C9;
+        border: 1px solid #62C7C9;
+        color: white;
+        font-family: $heading-font;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 5px;
+        padding: 17px;
+        text-align: center;
+        width: 55%;
+}
+
+.process-about-container {
+	background-color: $lightgrey;
+}
