@@ -17,13 +17,16 @@
 
 get_header(); ?>
 <div class="main-container">
+    <div class="gallery-header">
+    <h1>Gallery</h1>
+    <a href="#">Filter</a>
+</div>
+<?php //echo do_shortcode( '[searchandfilter taxonomies="category" types= "checkbox"]' ); ?>
+
 	<div class="main-grid">
 		<main class="main-content">
-		<?php
-   $args = array( 'post_type' => 'product', 'order' => 'ASC', 'posts_per_page' => 8, );
-   $gallery = new WP_Query( $args ); // instantiate our object
-?>
-		<?php if ( $gallery->have_posts() ) : ?>
+		
+			<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -36,6 +39,9 @@ get_header(); ?>
 			<?php endif; // End have_posts() check. ?>
 
 			<?php /* Display navigation to next/previous pages when applicable */ ?>
+		</main>
+
+	</div>
 			<?php
 			if ( function_exists( 'foundationpress_pagination' ) ) :
 				foundationpress_pagination();
@@ -47,8 +53,6 @@ get_header(); ?>
 				</nav>
 			<?php endif; ?>
 
-		</main>
-
-	</div>
+		
 </div>
 <?php get_footer();
