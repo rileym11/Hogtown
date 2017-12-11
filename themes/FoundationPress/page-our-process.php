@@ -7,8 +7,7 @@
 
 <main id="story-page">
     <section class="process-about-container">
-        <iframe style="margin: 0; border: none;" width="100%" height="300" src="https://www.youtube.com/watch?v=PP4kHvs1xSI">
-        </iframe>
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/PP4kHvs1xSI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                 <h1 id='process-page-title'>Our Process</h1>
         <div class="process-about-steps">
 
