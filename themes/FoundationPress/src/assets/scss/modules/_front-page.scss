@@ -108,7 +108,7 @@
       }
       .our-services {
         background: url('/hogtown/wp-content/themes/FoundationPress/src/assets/images/Services/services.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
         padding-bottom: 2rem;
@@ -131,12 +131,7 @@
           text-align: center;
         }
       }
-      .slider {
-        img {
-          height: 100%;
-          width: 100%;
-        }
-      }
+      
     }
   }
 }
