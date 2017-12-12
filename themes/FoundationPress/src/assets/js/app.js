@@ -18,7 +18,19 @@ $(document).ready(function(){
     slideWidth: 375,
     pager: false
   });
+// Gallery Menu 
+$('.gallery-filter' ).on('click', function (){
+  $('.gallery-filter-list-container').toggle();
+  $('.gallery-forum').toggle();
+ 
+});
+$('.gallery-filter-list').on('submit', function(){
+  alert('hi');
+});
+$('.gallery-filter-button').on('click', function(){
+  $('.gallery-filter-list-container').toggle();
+  $('.gallery-forum').toggle();
+});
 
-$('.gallery-filter' )
 
 });
