@@ -14,7 +14,7 @@ get_header(); ?>
 <?php get_template_part( 'template-parts/featured-image' ); ?>
 <div class="main-container">
   <div class="main-grid">
-    <main class="main-content">
+    <main class="">
       <div class="hero">
         <picture>
           <source media="(min-width: 768px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
@@ -47,7 +47,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="our-mascots">
-        <h2>Our Mascots</h2>
+        <h2 class="our-mascots-title">Our Mascots</h2>
         <div class="orbit" data-orbit>
           <div class="orbit-wrapper">
             <div class="orbit-controls">
@@ -55,14 +55,40 @@ get_header(); ?>
               <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
             </div>
             <ul class="orbit-container">
-              
+              <li class="is-active orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png" alt="Blue Mascot">
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg" alt="Gator Mascot">
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg" alt="OC Fair Mascots">
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg" alt="Toad Mascot">
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg" alt="Tuggy Mascots">
+                </figure>
+              </li>
             </ul>
           </div>
-          <div><img class="slider-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png"></div>
-          <div><img class="slider-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg"></div>
-          <div><img class="slider-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg"></div>
-          <div><img class="slider-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg"></div>
-          <div><img class="slider-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg"></div>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
+          </nav>
         </div>
         <p class="our-mascots-text">We make custom mascots for schools, businesses, brands, charities and more. See what we've created and imagine what we could do for you!</p>
         <a href="" class="front-page-btn">View Full Gallery</a>
