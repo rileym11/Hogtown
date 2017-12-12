@@ -19,18 +19,36 @@ $(document).ready(function(){
     pager: false
   });
 // Gallery Menu 
-$('.gallery-filter' ).on('click', function (){
-  $('.gallery-filter-list-container').toggle();
-  $('.gallery-forum').toggle();
+$('.gallery-filter' ).on('click', function displaytoggle(){
+  toggleFilter();
  
 });
-$('.gallery-filter-list').on('submit', function(){
-  alert('hi');
+
+$('.gallery-filter-list').on('submit', function(event){
+  event.preventDefault();
+  
+  
+  if (  $(".gallery-filter-list input[type=checkbox]:checked").length) {
+    $('.gallery-image').hide();
+  $(".gallery-filter-list input[type=checkbox]:checked").each(function() {
+    var blah = $(this).val();
+    
+    $('.'+blah).show();
+    //alert($(this).val());
+   
+  });
+}
 });
-$('.gallery-filter-button').on('click', function(){
+
+$('.gallery-filter-button').on('click', function (){
+  toggleFilter();
+ 
+});
+
+function toggleFilter() {
   $('.gallery-filter-list-container').toggle();
   $('.gallery-forum').toggle();
-});
+}
 
 
 });
