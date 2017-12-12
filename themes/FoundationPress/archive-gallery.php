@@ -19,9 +19,37 @@ get_header(); ?>
 <div class="main-container">
     <div class="gallery-header">
     <h1>Gallery</h1>
-    <a href="#">Filter</a>
+	<a class="gallery-filter" href="#">Filter</a>
 </div>
+<hr>
+
 <?php //echo do_shortcode( '[searchandfilter taxonomies="category" types= "checkbox"]' ); ?>
+<div class="gallery-filter-list-container">
+	<form class="gallery-filter-list" action="">
+		<label for="head-body">Head &amp; Body</label>
+		<input type="checkbox" id="head-body"  value="head-body">
+		<label for="uni-body">Uni-Body</label>
+		<input type="checkbox" id="uni-body"  value="uni-body">
+		<label for="human">Human</label>
+		<input type="checkbox" id="human"  value="human">
+		<label for="animal">Animal</label>
+		<input type="checkbox" id="animal"  value="animal">
+		<label for="monster">Monster</label>
+		<input type="checkbox" id="monster"  value="monster">
+		<label for="object">Object</label>
+		<input type="checkbox" id="object"  value="object">
+		<label for="sports">Sports</label>
+		<input type="checkbox" id="sports"  value="sports">
+		<label for="campaigns">Campaigns</label>
+		<input type="checkbox" id="campaigns" value="campaigns">
+		<label for="schools">Schools</label>
+		<input type="checkbox" id="schools"  value="schools">
+		<label for="government">Government</label>
+		<input type="checkbox" id="government" value="government">
+		
+
+	</form>
+</div>
 
 	<div class="main-grid">
 		<main class="main-content">
@@ -30,6 +58,7 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
+
 				<?php get_template_part( 'template-parts/content', 'gallery', get_post_format() ); ?>
 			<?php endwhile; ?>
 
@@ -40,9 +69,7 @@ get_header(); ?>
 
 			<?php /* Display navigation to next/previous pages when applicable */ ?>
 		</main>
-
-	</div>
-			<?php
+		<?php
 			if ( function_exists( 'foundationpress_pagination' ) ) :
 				foundationpress_pagination();
 			elseif ( is_paged() ) :
@@ -53,6 +80,9 @@ get_header(); ?>
 				</nav>
 			<?php endif; ?>
 
+
+	</div>
+			
 		
 </div>
 <?php get_footer();

@@ -18,4 +18,7 @@ $(document).ready(function(){
     slideWidth: 375,
     pager: false
   });
+
+$('.gallery-filter' )
+
 });
