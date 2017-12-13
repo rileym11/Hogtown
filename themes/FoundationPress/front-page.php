@@ -46,6 +46,7 @@ get_header(); ?>
           <a href="" class="front-page-btn">Learn More</a>
         </div>
       </div>
+      <!-- Mascots slider -->
       <div class="our-mascots">
         <h2 class="section-header">Our Mascots</h2>
         <div class="orbit" data-orbit>
@@ -93,16 +94,19 @@ get_header(); ?>
         <p class="our-mascots-text">We make custom mascots for schools, businesses, brands, charities and more. See what we've created and imagine what we could do for you!</p>
         <a href="" class="front-page-btn">View Full Gallery</a>
       </div>
+      <!-- Brand logos -->
       <div class="brand-slides">
         <div class="slider">
           <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo"><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo"></div>
         </div>
       </div>
+      <!-- Our services hero spot -->
       <div class="our-services">
         <h3 class="services-header">Our Services</h3>
         <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
         <a href="" class="front-page-btn">Learn More</a>
       </div>
+      <!-- Testimonial slider -->
       <div class="orbit testimonial-slides" data-orbit>
         <div class="orbit-wrapper">
           <div class="orbit-controls">
