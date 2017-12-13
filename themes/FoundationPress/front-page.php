@@ -104,20 +104,50 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo">
               </div>
             </li>
-            <li class="orbit-slide">
+            <li class="orbit-slide brand-slide">
               <div class="brand-slide">
-                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo">
-                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/AOL.png" alt="AOL Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/20th_century.png" alt="20th Century Fox Logo">
               </div>
             </li>
             <li class="orbit-slide">
               <div class="brand-slide">
-                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo">
-                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/ca.png" alt="Government of Canada Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/cb.png" alt="Canadian Broadcasting Corporation CBC Logo">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/hb.png" alt="Hasbro Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/mg.png" alt="Memphis Grizzlies Logo">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/ms.png" alt="Microsoft Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/nf.png" alt="Netflix Logo">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/ni.png" alt="Nintendo Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/sa.png" alt="Sandals Resorts Logo">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/sr.png" alt="Sanrio Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/wl.png" alt="Winterlude de Neige Logo">
               </div>
             </li>
           </ul>
         </div>
+        <nav class="orbit-bullets brand-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+        </nav>
       </div>
       <!-- Our services hero spot -->
       <div class="our-services">
