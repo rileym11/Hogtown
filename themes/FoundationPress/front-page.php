@@ -27,7 +27,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="our-process">
-        <a class="section-header" href="./our-process/"><h1>Our Process</h1></a>
+        <a href="./our-process/"><h1 class="section-header">Our Process</h1></a>
         <div class="sketch">
           <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process-1.png" class="our-process-image" alt="Sketch of Tiger Mascot">
           <p class="our-process-head">1. Sketch</p>
@@ -95,13 +95,13 @@ get_header(); ?>
       </div>
       <div class="brand-slides">
         <div class="slider">
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo"><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo"></div>
           <div></div>
           <div><img></div>
         </div>
       </div>
       <div class="our-services">
-        <h3 class="section-header">Our Services</h3>
+        <h3 class="services-header">Our Services</h3>
         <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
         <a href="" class="front-page-btn">Learn More</a>
       </div>
