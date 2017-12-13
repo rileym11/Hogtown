@@ -7,5 +7,7 @@ config.yml
 *.log
 .idea/
 *.swp
+*.jpg
+*.png
 packaged/
 wpcs/
