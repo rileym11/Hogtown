@@ -11,10 +11,10 @@
 }
   
 #headerlogo {
-	width: 60px;
-	height: 47px;
+	width: 4rem;
 	margin-left: 1rem;
-	margin-right: auto;
+	position: absolute;
+	top: 4rem;
 }
   
 #headertitle {
@@ -29,11 +29,10 @@
 
 .fixed-menu {
 	position: relative;
-	margin-left: auto;
-	margin-right: 1rem;
 	margin-bottom: 3rem;
 	.accordion-menu {
 		position: absolute;
+		z-index: 99;
 		right: 0px;
 		top: 0px;
 	}
