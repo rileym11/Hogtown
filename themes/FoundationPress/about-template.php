@@ -15,10 +15,7 @@
         </picture>
        
         <div class="team-about-text">
-            <p>
-            Our team is comprised of highly skilled mascot specialists
-             who are devoted to overcoming any design or construction challenge they encounter.
-            </p>
+        <?php echo '<p>' . CFS()->get( 'team_about' ) . '</p>' ?>
         </div>
     </section>
     <section class='owners-content-container'>
