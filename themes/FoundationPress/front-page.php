@@ -27,7 +27,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="our-process">
-        <h1><a class="hero-text" href="./our-process/">Our Process</a></h1>
+        <a class="section-header" href="./our-process/"><h1>Our Process</h1></a>
         <div class="sketch">
           <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process-1.png" class="our-process-image" alt="Sketch of Tiger Mascot">
           <p class="our-process-head">1. Sketch</p>
@@ -47,7 +47,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="our-mascots">
-        <h2 class="our-mascots-title">Our Mascots</h2>
+        <h2 class="section-header">Our Mascots</h2>
         <div class="orbit" data-orbit>
           <div class="orbit-wrapper">
             <div class="orbit-controls">
@@ -55,27 +55,27 @@ get_header(); ?>
               <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
             </div>
             <ul class="orbit-container">
-              <li class="is-active orbit-slide">
+              <li class="is-active orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
                   <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png" alt="Blue Mascot">
                 </figure>
               </li>
-              <li class="orbit-slide">
+              <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
                   <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg" alt="Gator Mascot">
                 </figure>
               </li>
-              <li class="orbit-slide">
+              <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
                   <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg" alt="OC Fair Mascots">
                 </figure>
               </li>
-              <li class="orbit-slide">
+              <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
                   <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg" alt="Toad Mascot">
                 </figure>
               </li>
-              <li class="orbit-slide">
+              <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
                   <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg" alt="Tuggy Mascots">
                 </figure>
@@ -101,7 +101,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="our-services">
-        <h3>Our Services</h3>
+        <h3 class="section-header">Our Services</h3>
         <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
         <a href="" class="front-page-btn">Learn More</a>
       </div>
