@@ -31,9 +31,9 @@ $('.gallery-filter-list').on('submit', function(event){
   if (  $(".gallery-filter-list input[type=checkbox]:checked").length) {
     $('.gallery-image').hide();
   $(".gallery-filter-list input[type=checkbox]:checked").each(function() {
-    var blah = $(this).val();
+    var taxon = $(this).val();
     
-    $('.'+blah).show();
+    $('.'+taxon).show();
     //alert($(this).val());
    
   });
