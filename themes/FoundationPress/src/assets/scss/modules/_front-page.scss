@@ -130,6 +130,24 @@
           width: 100%;
         }
       }
+      .brand-slides {
+        background: $lightgrey;
+        height: 8rem;
+        width: 100vw;
+        .bx-wrapper {
+          .bx-viewport {
+            height: 120px !important;
+          }
+        }
+        .slider {
+          div {
+            display: flex;
+            img {
+              width: 40%;
+            }
+          }
+        }
+      }
     }
   }
 }

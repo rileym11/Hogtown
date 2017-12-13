@@ -50,18 +50,18 @@ get_header(); ?>
       <div class="our-mascots">
         <h2>Our Mascots</h2>
         <div class="slider">
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png"></div>
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg"></div>
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg"></div>
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg"></div>
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png" alt="Blue Mascot"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg" alt="Gator Mascot"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg" alt="Group of Mascots"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg" alt="Toad Mascot"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg" alt="Group of Pink Tuggy Mascots"></div>
         </div>
         <p class=our-mascots-text>We make custom mascots for schools, businesses, brands, charities and more. See what we've created and imagine what we could do for you!</p>
         <a href="" class="front-page-btn">View Full Gallery</a>
       </div>
       <div class="brand-slides">
         <div class="slider">
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png"></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo"><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo"></div>
           <div></div>
           <div><img></div>
         </div>
