@@ -46,14 +46,14 @@
 									<li class="dropdown-link"><a href="./contact-us/">Contact Us</a></li>
 									<li class="dropdown-link"><a href="./gallery/">Gallery</a></li>
 									<li class="dropdown-link">
-										<a href="./services/">Services</a>
+										<a href="./services">Services</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="./services/">Training</a></li>
-											<li class="submenu-link"><a href="./services/">Cleaning</a></li>
-											<li class="submenu-link"><a href="./services/">Repair</a></li>
-											<li class="submenu-link"><a href="./services/">Storage</a></li>
-											<li class="submenu-link"><a href="./services/">Sesame Street Appearances</a></li>
-											<li class="submenu-link"><a href="./services/">Accessories and Plush Toys</a></li>
+											<li class="submenu-link"><a href="./services">Training</a></li>
+											<li class="submenu-link"><a href="./services">Cleaning</a></li>
+											<li class="submenu-link"><a href="./services">Repair</a></li>
+											<li class="submenu-link"><a href="./services">Storage</a></li>
+											<li class="submenu-link"><a href="./services">Sesame Street Appearances</a></li>
+											<li class="submenu-link"><a href="./services">Accessories and Plush Toys</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-link"><a href="#">Build a Quote</a></li>
