@@ -19,6 +19,7 @@
       justify-content: space-between;
      
     .footer-site-links {
+      font-size: 1rem;
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -58,22 +59,48 @@
 
 }
 
-// Desktop Footer
+// Desktop/Tablet Footer
+@media screen and (min-width: $medium) {
+.footer-container{
+  height: 20rem;
+ }
+ .footer-container .footer .footer-link-container .footer-site-links a {
+  margin: 0.45rem 0.45rem 2rem 0.45rem;
+  &:nth-child(3) {
+    margin-bottom: 0px;
+  }
+
+}
+}
+
 
 @media screen and (min-width: $large) {
 
   .footer-container {
+    height: 14rem;
     .footer {
    
       .footer-link-container {
+        max-width: 1440px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0px;
  
        
       .footer-site-links {
-
+        flex-direction: row;
+        justify-content: space-evenly;
        
         &:first-child {
+          width: 60%;
+          a:last-child {
+            position: relative;
+            left: 7%;
+
+          }
         }
         &:last-child {
+          width:40%;
         }
         
         
@@ -85,8 +112,11 @@
       }
     }
       .footer-media-icons {
-        
-  
+          justify-content: center;
+          a{
+            margin-left: 2rem;
+            margin-right:2rem;
+          }
   
       }
     
