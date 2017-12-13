@@ -9,7 +9,11 @@
         <h1 class='page-title'>Our Story</h1>
     </div>
     <section class="team-about-container">
-        <img class ="team-about-image" src="../wp-content/themes/FoundationPress/src/assets/images/About-Page/Our-Story/about_us.png" alt="">
+        <picture>
+            <source media="(min-width: 768px)" srcset="../wp-content/themes/FoundationPress/src/assets/images/About-Page/Our-Story/about_us@2x.png">
+            <img class ="team-about-image" src="../wp-content/themes/FoundationPress/src/assets/images/About-Page/Our-Story/about_us.png" alt="">
+        </picture>
+       
         <div class="team-about-text">
             <p>
             Our team is comprised of highly skilled mascot specialists
