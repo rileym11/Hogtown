@@ -14,18 +14,22 @@
         height: 3.5rem;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         
         h1{
+            margin-left: 6rem;
+            margin-right: 1rem;
             padding: 0rem 2rem;
             font-family: $heading-font;  
             font-size: 22px;
             font-weight: 600;
-            margin-right: 2.6rem;
+            
             
         }
         a{
+            position: relative;
+            left: 1.5rem;
             &:hover {
                 color: $darkblue;
                 }
