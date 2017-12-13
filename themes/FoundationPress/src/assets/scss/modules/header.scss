@@ -9,7 +9,13 @@
 	display: flex;
 	align-items: center;
 }
-  
+	
+body.logged-in {
+	#headerlogo {
+		top: 4rem;
+	}
+}
+
 #headerlogo {
 	width: 4rem;
 	margin-left: 1rem;
