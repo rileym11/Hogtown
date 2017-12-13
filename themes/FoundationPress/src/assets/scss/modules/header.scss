@@ -5,7 +5,7 @@
 }
 
 .flexyheader {
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 }
@@ -70,3 +70,91 @@ a:hover, a:focus {
 .submenu-link {
 	font-weight: 400;
 }
+
+.desktop-flexy-header {
+	display: none;
+	width: 100%;
+}
+
+.desktop-header-button {
+	display: none;
+}
+
+@media only screen and (min-width: 1040px) {
+   
+      .mobile-menu-button {
+      		visibility: hidden;
+      }  
+
+      .site-navigation-top-bar {
+			background-color: #504b47;
+			display: flex; 
+			height: 5.5rem;
+	  }
+
+	  #headerlogo {
+			width: 5.2rem;
+			margin-left: 3rem;
+			position: absolute;
+			top: .7rem;
+	  }
+
+	  #headertitle {
+			font-family: $heading-font;
+			color: $whitegrey;
+			font-size: 25px;
+			margin-bottom: 0px;
+			text-align: center;
+			margin-left: 10rem;
+	  }    
+
+	  .flexyheader {
+	  	width: 60%;
+	  }
+
+	  .desktop-flexy-header {
+	  	width: 100%;
+	  	display: flex;
+	  	align-items: center;
+	  	justify-content: flex-end;
+	  	margin-right: 2rem;
+	  		ul {
+	  			display: flex;
+	  			margin-top: 1rem;
+	  			width: 60%;
+	  		li {
+	  			list-style-type: none;
+	  			margin: 0% 3%;
+			a {
+				text-decoration: none;
+				font-family: $heading-font;
+				color: $whitegrey;
+				font-size: 20px;
+			   }
+	  		 }
+
+	  	}
+	  }
+	}
+
+		.desktop-header-button {
+			display: inline-block;
+			background: #62C7C9;
+	        border: 1px solid #62C7C9;
+	        color: white;
+	        font-family: $heading-font;
+	        font-size: 19px;
+	        padding: 10px;
+	        text-align: center;
+	        width: 22%;
+		}
+
+
+
+
+
+
+
+
+
+

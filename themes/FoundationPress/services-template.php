@@ -12,8 +12,6 @@ get_header()
 
 <div class="dropdown-services-container"> 
 
-
-
 <!-- Services Accordian --> 
 <ul class="accordion" data-accordion>
   <li class="accordion-item" data-accordion-item>
@@ -46,7 +44,7 @@ get_header()
 
    <a href="#" class="accordion-title">Training</a>
 
-  <div class="accordion-content" data-tab-content>
+   <div class="accordion-content" data-tab-content>
       <?php echo '<p>' . CFS()->get( 'training' ) . '</p>' ?>
     </div>
   </li>  

@@ -62,6 +62,17 @@
 						</ul>
 					</div>
 				</div>
+
+				<div class="desktop-flexy-header"> 
+					<ul> 
+						<li> <a class="desktop-nav" href="./about"> About </a> </li>
+						<li> <a class="desktop-nav" href="./gallery"> Gallery </a> </li>
+						<li> <a class="desktop-nav" href="./services"> Services </a> </li>
+						<li> <a class="desktop-nav" href="./contact-us"> Contact Us </a> </li>
+					</ul>
+					<button class="desktop-header-button"> Build a Quote </button>
+				</div>
+
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
