@@ -3,11 +3,14 @@
 #story-page {
     font-family: $body-font;
     color: $darkgrey;
+    p{
+    font-size: 1rem;
+    }
     h1, h2, h3 {
         
         font-family: $heading-font;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 1.5rem;
     }
     .page-title-container {
         height:5.9rem;
@@ -20,7 +23,7 @@
         }
     }
     .team-about-container {
-        height: 23.7rem;
+      
         img {
             //height: 16.9rem;
         }
@@ -31,6 +34,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            p{
+                max-width: 30rem;
+
+            }
         }
     }
     .owners-content-container {
@@ -67,4 +74,108 @@
         }
     }
 
+}
+
+
+//Desktop/Tablet Our Story Page
+
+
+@media screen and (min-width: $medium) {
+    #story-page {
+            p{
+                font-size: 1.4rem;
+            }
+           h1, h2, h3 {
+            font-size: 1.8rem;
+           }
+           .page-title-container {
+       
+               .page-title{
+           
+               }
+           }
+           .team-about-container {
+             
+               img {
+                  
+               }
+               .team-about-text{
+            
+                   p{
+                    
+                       text-align: center;
+                   }
+               }
+           }
+           .owners-content-container {
+       
+               
+               .owners-content {
+                  
+                   .owner-image {
+       
+                   }
+                   .owners-text {
+                       h2{
+                           
+       
+                       }
+                       p{
+                         
+                       }
+       
+                   }
+               }
+           }
+       
+       }
+}
+
+@media screen and (min-width: $large) {
+#story-page {
+ 
+    h1, h2, h3 {
+
+    }
+    .page-title-container {
+
+        .page-title{
+    
+        }
+    }
+    .team-about-container {
+      
+        img {
+           
+        }
+        .team-about-text{
+     
+            p{
+            
+            }
+        }
+    }
+    .owners-content-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        display: flex;
+        .owners-content {
+           width: 35%;
+            .owner-image {
+
+            }
+            .owners-text {
+                h2{
+                    
+
+                }
+                p{
+                  
+                }
+
+            }
+        }
+    }
+
+}
 }
