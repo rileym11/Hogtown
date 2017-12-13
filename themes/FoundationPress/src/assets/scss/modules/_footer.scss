@@ -17,12 +17,13 @@
       padding-left:1.5rem;
       padding-right: 1.5rem;
       justify-content: space-between;
-
+     
     .footer-site-links {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       height: 60%;
+     
       &:first-child {
         align-items: flex-start;
       }
@@ -54,5 +55,43 @@
   a {
     color: $white;
   }
+
+}
+
+// Desktop Footer
+
+@media screen and (min-width: $large) {
+
+  .footer-container {
+    .footer {
+   
+      .footer-link-container {
+ 
+       
+      .footer-site-links {
+
+       
+        &:first-child {
+        }
+        &:last-child {
+        }
+        
+        
+        a {
+          margin: 0.45rem;
+          font-size: 1.1rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
+      .footer-media-icons {
+        
+  
+  
+      }
+    
+  
+    }
+    }
 
 }
