@@ -39,8 +39,8 @@
 									<li class="dropdown-link">
 										<a href="#">About</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="./hogtown/our-story/">Our Story</a></li>
-											<li class="submenu-link"><a href="./hogtown/our-process/">Our Process</a></li>
+											<li class="submenu-link"><a href="./our-story/">Our Story</a></li>
+											<li class="submenu-link"><a href="./our-process/">Our Process</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-link"><a href="./contact-us/">Contact Us</a></li>
