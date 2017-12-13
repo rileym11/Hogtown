@@ -95,9 +95,28 @@ get_header(); ?>
         <a href="" class="front-page-btn">View Full Gallery</a>
       </div>
       <!-- Brand logos -->
-      <div class="brand-slides">
-        <div class="slider">
-          <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo"><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo"></div>
+      <div class="orbit brand-slides" data-orbit>
+        <div class="orbit-wrapper">
+          <ul class="orbit-container brand-slide-container">
+            <li class="is-active orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo">
+              </div>
+            </li>
+            <li class="orbit-slide">
+              <div class="brand-slide">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo">
+                <img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo">
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
       <!-- Our services hero spot -->

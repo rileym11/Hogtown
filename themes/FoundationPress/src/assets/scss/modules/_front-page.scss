@@ -135,6 +135,23 @@
   }
 }
 
+.brand-slides {
+  // min-height: 100px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.brand-slide-container {
+  // min-height: 100px;
+}
+
+.brand-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .mascot-bullets {
   margin-top: -2rem;
 }
