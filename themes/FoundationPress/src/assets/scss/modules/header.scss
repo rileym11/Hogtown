@@ -9,12 +9,18 @@
 	display: flex;
 	align-items: center;
 }
-  
+	
+body.logged-in {
+	#headerlogo {
+		top: 4rem;
+	}
+}
+
 #headerlogo {
 	width: 4rem;
 	margin-left: 1rem;
 	position: absolute;
-	top: 4rem;
+	top: 1rem;
 }
   
 #headertitle {
@@ -32,6 +38,7 @@
 	margin-bottom: 3rem;
 	.accordion-menu {
 		position: absolute;
+		z-index: 99;
 		right: 0px;
 		top: 0px;
 	}

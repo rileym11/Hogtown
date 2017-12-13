@@ -18,4 +18,37 @@ $(document).ready(function(){
     slideWidth: 375,
     pager: false
   });
+// Gallery Menu 
+$('.gallery-filter' ).on('click', function displaytoggle(){
+  toggleFilter();
+ 
+});
+
+$('.gallery-filter-list').on('submit', function(event){
+  event.preventDefault();
+  
+  
+  if (  $(".gallery-filter-list input[type=checkbox]:checked").length) {
+    $('.gallery-image').hide();
+  $(".gallery-filter-list input[type=checkbox]:checked").each(function() {
+    var taxon = $(this).val();
+    
+    $('.'+taxon).show();
+    //alert($(this).val());
+   
+  });
+}
+});
+
+$('.gallery-filter-button').on('click', function (){
+  toggleFilter();
+ 
+});
+
+function toggleFilter() {
+  $('.gallery-filter-list-container').toggle();
+  $('.gallery-forum').toggle();
+}
+
+
 });

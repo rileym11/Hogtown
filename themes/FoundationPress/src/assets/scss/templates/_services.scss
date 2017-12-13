@@ -1,0 +1,47 @@
+@import '../hogtown_vars.scss';
+
+#services-page-title {
+	font-family: $heading-font;
+	color: $darkgrey; 
+	text-align: center;
+	font-size: 25px; 
+	margin: 20px 0px;
+}
+
+.services-img {
+	width: 100%;
+	height: 250px;
+}
+
+.accordion {
+	margin: 0 5%;
+	border: none;
+	background-color: $whitegrey;
+}
+
+.accordion-title {
+	font-size: 19px;
+	color: $darkgrey;
+	font-family: $body-font;
+	border: none;
+	background-color: $whitegrey;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.accordion-title:hover {
+	background-color: white;
+	color:$darkgrey;
+	background-color: $whitegrey;
+}
+
+.accordion-content {
+	font-size: 17px;
+	color: $darkgrey;
+	font-family: $body-font;
+	border: none;
+	background-color: $whitegrey;
+}
+
+.dropdown-services-container {
+	background-color: $whitegrey;
+}
