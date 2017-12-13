@@ -82,7 +82,7 @@ get_header(); ?>
               </li>
             </ul>
           </div>
-          <nav class="orbit-bullets">
+          <nav class="orbit-bullets mascot-bullets">
             <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
             <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
             <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
@@ -96,8 +96,6 @@ get_header(); ?>
       <div class="brand-slides">
         <div class="slider">
           <div><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand2.png" alt="Children's Wish Foundation Logo"><img src="<?php bloginfo('template_url'); ?>/src/assets/images/brand-imgs/brand1.png" alt="Sesame Street Logo"></div>
-          <div></div>
-          <div><img></div>
         </div>
       </div>
       <div class="our-services">

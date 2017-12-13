@@ -130,15 +130,23 @@
 }
 .orbit {
   width: 100%;
+  .orbit-bullets button {
+    border: 1px solid white;
+  }
+}
+
+.mascot-bullets {
+  margin-top: -2rem;
 }
 
 .testimonial-slides {
   background-color: $brown;
+  min-height: 270px;
 }
 
 .testimonial-text {
   color: white;
-  font-family: $body-font;
+  font-family: $heading-font;
   text-align: center;
   margin: 1rem;
   padding: 1rem;
