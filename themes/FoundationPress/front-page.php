@@ -117,6 +117,7 @@ get_header(); ?>
           T.D., St. Joseph MO</p></div>
         </div>
       </div>
+      <?php echo do_shortcode( '[jr_instagram id="2"]' ) ?>
 		</main>
 		<?php get_sidebar(); ?>
 	</div>
