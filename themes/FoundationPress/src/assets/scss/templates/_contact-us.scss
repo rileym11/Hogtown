@@ -18,10 +18,11 @@
   }
 
   .contact-info {
-    align-self: flex-start;
+    // align-self: flex-start;
     p {
       margin: 0;
       font-family: $body-font;
+      text-align: center;
     }
   }
 
@@ -41,11 +42,12 @@
   }
 
   .location-info {
-    align-self: left;
+    // align-self: left;
     margin-top: 1rem;
     p {
       margin: 0;
       font-family: $body-font;
+      text-align: center;
     }
   }
 
@@ -102,4 +104,52 @@ opacity: 1;
 :-ms-input-placeholder { /* Internet Explorer 10+ */
 color: #000 !important;
 opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-info {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hide-desktop {
+    display: none;
+  }
+  .column-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .contact-map {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    .contact-info {
+      margin-bottom: 1rem;
+      p {
+        text-align: left;
+      }
+    }
+    .map {
+      max-width: 40vw;
+      iframe {
+        max-width: 40vw;
+      }
+    }
+    .location-info {
+      p {
+        text-align: left;
+      }
+    }
+  }
+
+  .wpcf7 {
+    margin-left: 1rem;
+  }
 }
