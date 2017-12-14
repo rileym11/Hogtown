@@ -22,6 +22,7 @@ get_header(); ?>
 	<a class="gallery-filter" href="#">Filter</a>
 </div>
 <hr class="header-break">
+<div class="gallery-center">
 <section class="gallery-relative-wrap">
 	<div class="gallery-filter-list-container">
 		<form class="gallery-filter-list" action="">
@@ -89,6 +90,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+	</div>
 			
 		
 <?php get_footer();
