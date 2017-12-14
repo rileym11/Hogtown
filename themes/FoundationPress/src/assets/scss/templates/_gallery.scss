@@ -200,7 +200,10 @@
                  
                  .gallery-filter-list-container {
                position: absolute;
-               background: transparent;
+               background: $white;
+               height: 40rem;
+               width: 25rem;
+               right: 0px;
          
                      .gallery-filter-list {
                     
@@ -219,10 +222,12 @@
          
                          }
                          button[type='submit'] {
+                             
                          
                          }
          
                          label {
+                             width: 15rem;
                            
                          }
                      }
