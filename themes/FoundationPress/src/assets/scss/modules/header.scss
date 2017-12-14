@@ -86,7 +86,7 @@ a:hover, a:focus {
 	display: none;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: $large) {
    
       .mobile-menu-button {
       		visibility: hidden;

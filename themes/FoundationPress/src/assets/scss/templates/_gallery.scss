@@ -6,7 +6,7 @@
 .main-container {
     color: $brown ; 
     .header-break{
-
+        min-width: 100vw;
         margin: 0px;
         margin-bottom: 2rem;
     }
@@ -40,6 +40,9 @@
         }
         
     }
+    .third-filter-hr {
+        border-bottom: 1px solid $white; 
+    }
     .gallery-relative-wrap {
             position: relative;
         
@@ -53,7 +56,9 @@
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: space-around;
+                
                 hr{
+                    
                     min-width: 100vw;
                     margin: 0px;
                     margin-bottom: 1rem;
@@ -128,9 +133,33 @@
 // Desktop/Tablet Gallery
 
     @media screen and (min-width: $medium) {
+        .post-type-archive-gallery {
+            
+           
+         
+         .main-container {
+             .header-break{
+         
+        
+             }
+             .gallery-header {
+ 
+                 
+                 h1{
+                 
+                     
+                 }
+                 a{
+                    left: 11rem;
+                     &:hover {
+                         }
+              
+                 }
+                 
+             }
         
     }
-    
+}
     
     
     @media screen and (min-width: $large) {
@@ -140,99 +169,66 @@
            
          
          .main-container {
-             color: $brown ; 
              .header-break{
          
-                 margin: 0px;
-                 margin-bottom: 2rem;
+        
              }
              .gallery-header {
-                 height: 3.5rem;
-                 display: flex;
-                 flex-direction: row;
-                 justify-content: center;
-                 align-items: center;
+                margin-top: 3rem;
+                width: 100vw;
                  
                  h1{
-                     margin-left: 6rem;
-                     margin-right: 1rem;
-                     padding: 0rem 2rem;
-                     font-family: $heading-font;  
-                     font-size: 22px;
-                     font-weight: 600;
-                     
+                 //margin
                      
                  }
                  a{
-                     position: relative;
-                     left: 1.5rem;
+                     background: $blue;
+                     color: $white;
+                    left: 22vw;
+                    margin-bottom: 1rem; 
+                    padding: 0.5rem 3rem 0.5rem 3rem;
                      &:hover {
-                         color: $darkblue;
+                         background-color: $darkblue;
+                         color: $white;
                          }
-                     color: $blue;                
-                     margin-right: 2rem;
-                     text-align: center;
-                     margin-bottom: 0.5rem;
+              
                  }
                  
              }
              .gallery-relative-wrap {
-                     position: relative;
+                    position: relative;
                  
                  .gallery-filter-list-container {
-                     background: $white;
-                     z-index: 1;
-                     display: none;
-                     color: $brown;
+               position: absolute;
+               background: $white;
+               height: 40rem;
+               width: 25rem;
+               right: 0px;
          
                      .gallery-filter-list {
-                         display: flex;
-                         flex-flow: row wrap;
-                         justify-content: space-around;
+                    
                          hr{
-                             min-width: 100vw;
-                             margin: 0px;
-                             margin-bottom: 1rem;
+                       
                          }
          
                          input{
-                             margin: 0px;
-                             margin-bottom:1rem ;
-                             margin-top: 1rem;
-                             background-color: $white;
-                             border: 1.5px solid $brown;
-                             padding: 0.6rem;
-                             display: inline-block;
-                             position: relative;
-                             appearance: none;
-                             margin-right: 1rem;
+                        
                              &:checked {
-                                 background-color: $darkblue;
-                                 border-color: $darkblue;
                              }
                              &:focus {
-                                 outline: none;
+                                 
                              }
                             
          
                          }
                          button[type='submit'] {
-                             background-color: $blue;
-                             height: 2.5rem;
-                             width: 12rem;
-                             margin-bottom: 2rem;
-                             margin-top: 2rem;
-                             color: $white;
+                             
+                         
                          }
          
                          label {
-                             color: $brown;
-                             margin-bottom:1rem ;
-                             margin-top: 1rem;
-                             font-weight: 500;
-                             font-size: inherit;
-                             margin: 0 2rem ;
-                             width: 61vw;
+                             width: 15rem;
+                           
                          }
                      }
                  }
@@ -240,21 +236,12 @@
                  
              
                  .main-grid {
-                     display: flex;
-                 z-index: 0;
-                     justify-content: center;
-                     align-items: center;
+                  
                      .main-content {
-                         display: flex;
-                         flex-flow: row wrap;
-                         justify-content: center;
-                         align-items: center;
-                         width: 100%;
+                        
          
                          img {
-                             height: 9.5rem;
-                             width: 9.5rem;
-                             margin: 0.2rem;
+                            
                          }
                      }
                  }
@@ -262,3 +249,4 @@
          }
          }
     }
+}
