@@ -14,6 +14,10 @@
 	align-items: center;
 }
 
+iframe {
+	width: 100%;
+	height: 300px;  
+}
 .our-process-description {
 	margin: 15px 10%;
 	color: $darkgrey; 
@@ -43,4 +47,89 @@
 
 .process-about-container {
 	background-color: $lightgrey;
+}
+
+.desktop-process-container {
+	display: none;
+}
+
+@media only screen and (min-width: 1040px) {
+
+
+iframe {
+	height: 500px;
+	width: 100vw;
+}
+
+#process-page-title {
+	font-size: 32px;
+	margin: 25px;
+}
+
+.process-about-steps {
+	display: none;
+}
+
+.desktop-process-container {
+	display: flex;
+	width: 100%;
+}
+
+
+.desktop-process-img-div{
+	width: 50%;
+	overflow: hidden;
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.desktop-process-img{ 
+		width: 40%;
+		height: 180px;
+		margin-left: 2.5%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	 }
+
+	.desktop-process-img-last {
+		width: 82.5%;
+		margin-left: 2.5%;
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}
+}
+
+.desktop-process-description-div {
+	width: 50%;
+
+	.desktop-process-description-first {
+		margin-top: 0px 2.5%;
+		color: $darkgrey; 
+		font-family: $body-font; 
+		font-size: 20px;
+	}
+
+	.desktop-process-description {
+		margin: 20px 2.5%;
+		color: $darkgrey; 
+		font-family: $body-font; 
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
