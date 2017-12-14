@@ -86,7 +86,7 @@ a:hover, a:focus {
 	display: none;
 }
 
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 1024px) {
    
       .mobile-menu-button {
       		visibility: hidden;
@@ -99,11 +99,17 @@ a:hover, a:focus {
 	  }
 
 	  #headerlogo {
-			width: 5.2rem;
-			margin-left: 3rem;
+			width: 4rem;
+			margin-left: 2rem;
 			position: absolute;
-			top: .7rem;
-	  }
+			top: 2rem;
+		}
+		
+		body.logged-in {
+			#headerlogo {
+				top: 3.25rem;
+			}
+		}
 
 	  #headertitle {
 			font-family: $heading-font;
