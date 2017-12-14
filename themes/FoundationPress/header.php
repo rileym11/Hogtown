@@ -44,7 +44,7 @@
 										</ul>
 									</li>
 									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>">Contact Us</a></li>
-									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Gallery' )) ?>">Gallery</a></li>
+									<li class="dropdown-link"><a href="<?php echo get_post_type_archive_link('gallery') ?>">Gallery</a></li>
 									<li class="dropdown-link">
 										<a href="./services">Services</a>
 										<ul class="menu vertical nested">
@@ -66,7 +66,7 @@
 				<div class="desktop-flexy-header"> 
 					<ul> 
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Our Story' )) ?>"> About </a> </li>
-						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Gallery' )) ?>"> Gallery </a> </li>
+						<li> <a class="desktop-nav" href="<?php echo get_post_type_archive_link('gallery') ?>"> Gallery </a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>"> Services </a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>"> Contact Us </a> </li>
 					</ul>
