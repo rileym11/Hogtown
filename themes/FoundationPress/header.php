@@ -39,21 +39,21 @@
 									<li class="dropdown-link">
 										<a href="#">About</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="/our-story/">Our Story</a></li>
-											<li class="submenu-link"><a href="/our-process/">Our Process</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Our Story' )) ?>">Our Story</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Our Process' )) ?>">Our Process</a></li>
 										</ul>
 									</li>
-									<li class="dropdown-link"><a href="/contact-us/">Contact Us</a></li>
-									<li class="dropdown-link"><a href="/gallery/">Gallery</a></li>
+									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>">Contact Us</a></li>
+									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Gallery' )) ?>">Gallery</a></li>
 									<li class="dropdown-link">
 										<a href="./services">Services</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="./services">Training</a></li>
-											<li class="submenu-link"><a href="./services">Cleaning</a></li>
-											<li class="submenu-link"><a href="./services">Repair</a></li>
-											<li class="submenu-link"><a href="./services">Storage</a></li>
-											<li class="submenu-link"><a href="./services">Sesame Street Appearances</a></li>
-											<li class="submenu-link"><a href="./services">Accessories and Plush Toys</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Training</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Cleaning</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Repair</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Storage</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Sesame Street Appearances</a></li>
+											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Accessories and Plush Toys</a></li>
 										</ul>
 									</li>
 									<li class="dropdown-link"><a href="#">Build a Quote</a></li>
@@ -65,10 +65,10 @@
 
 				<div class="desktop-flexy-header"> 
 					<ul> 
-						<li> <a class="desktop-nav" href="/about"> About </a> </li>
-						<li> <a class="desktop-nav" href="/gallery"> Gallery </a> </li>
-						<li> <a class="desktop-nav" href="/services"> Services </a> </li>
-						<li> <a class="desktop-nav" href="/contact-us"> Contact Us </a> </li>
+						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Our Story' )) ?>"> About </a> </li>
+						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Gallery' )) ?>"> Gallery </a> </li>
+						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>"> Services </a> </li>
+						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>"> Contact Us </a> </li>
 					</ul>
 					<button class="desktop-header-button"> Build a Quote </button>
 				</div>
