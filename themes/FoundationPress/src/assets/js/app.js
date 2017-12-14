@@ -13,48 +13,36 @@ import './lib/foundation-explicit-pieces';
 
 $(document).foundation();
 
-$(document).ready(function(){
-  $('.slider').bxSlider({
-    slideWidth: 375,
-    pager: false
-  });
-// Gallery Menu 
+// Gallery Menu
 $('.gallery-filter' ).on('click', function displaytoggle(){
   toggleFilter();
- 
+
 });
 
 $('.gallery-filter-list').on('submit', function(event){
   event.preventDefault();
-  
-  
+
+
   if (  $(".gallery-filter-list input[type=checkbox]:checked").length) {
     $('.gallery-image').hide();
   $(".gallery-filter-list input[type=checkbox]:checked").each(function() {
     var taxon = $(this).val();
-    
+
     $('.'+taxon).show();
     //alert($(this).val());
-   
+
   });
-} else {
-  $('.gallery-image').show();
 }
 });
 
 $('.gallery-filter-button').on('click', function (){
   toggleFilter();
- 
+
 });
 
 function toggleFilter() {
-  if (window.innerWidth > 1023){
   $('.gallery-filter-list-container').toggle();
-  } else {
-  $('.gallery-filter-list-container').toggle();    
   $('.gallery-forum').toggle();
-  }
-}
 
 
-});
+};
