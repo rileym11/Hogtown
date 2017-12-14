@@ -29,15 +29,21 @@ get_header(); ?>
       <div class="our-process">
         <a href="./our-process/"><h1 class="section-header">Our Process</h1></a>
         <div class="our-process-section">
-          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process-1.png" class="our-process-image" alt="Sketch of Tiger Mascot">
-          <p class="our-process-head">1. Sketch</p>
-          <p class="our-process-text">We sketch your dream mascot</p>
-          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/processTwo.png" class="our-process-image" alt="Sketch of Tiger Mascot">
-          <p class="our-process-head">2. Build</p>
-          <p class="our-process-text">We make the sketch come to life</p>
-          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process5_Final.png" class="our-process-image" alt="Finished Tiger Mascot">
-          <p class="our-process-head">3. Deliver</p>
-          <p class="our-process-text">We ship your mascot to you</p>
+          <div class="sketch">
+            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process-1.png" class="our-process-image" alt="Sketch of Tiger Mascot">
+            <p class="our-process-head">1. Sketch</p>
+            <p class="our-process-text">We sketch your dream mascot</p>
+          </div>
+          <div class="build">
+            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/processTwo.png" class="our-process-image" alt="Sketch of Tiger Mascot">
+            <p class="our-process-head">2. Build</p>
+            <p class="our-process-text">We make the sketch come to life</p>
+          </div>
+          <div class="deliver">
+            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process5_Final.png" class="our-process-image" alt="Finished Tiger Mascot">
+            <p class="our-process-head">3. Deliver</p>
+            <p class="our-process-text">We ship your mascot to you</p>
+          </div>
         </div>
           <br>
           <a href="" class="front-page-btn">Learn More</a>
