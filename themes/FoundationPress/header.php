@@ -39,12 +39,12 @@
 									<li class="dropdown-link">
 										<a href="#">About</a>
 										<ul class="menu vertical nested">
-											<li class="submenu-link"><a href="./our-story/">Our Story</a></li>
-											<li class="submenu-link"><a href="./our-process/">Our Process</a></li>
+											<li class="submenu-link"><a href="/our-story/">Our Story</a></li>
+											<li class="submenu-link"><a href="/our-process/">Our Process</a></li>
 										</ul>
 									</li>
-									<li class="dropdown-link"><a href="./contact-us/">Contact Us</a></li>
-									<li class="dropdown-link"><a href="./gallery/">Gallery</a></li>
+									<li class="dropdown-link"><a href="/contact-us/">Contact Us</a></li>
+									<li class="dropdown-link"><a href="/gallery/">Gallery</a></li>
 									<li class="dropdown-link">
 										<a href="./services">Services</a>
 										<ul class="menu vertical nested">
@@ -65,10 +65,10 @@
 
 				<div class="desktop-flexy-header"> 
 					<ul> 
-						<li> <a class="desktop-nav" href="./about"> About </a> </li>
-						<li> <a class="desktop-nav" href="./gallery"> Gallery </a> </li>
-						<li> <a class="desktop-nav" href="./services"> Services </a> </li>
-						<li> <a class="desktop-nav" href="./contact-us"> Contact Us </a> </li>
+						<li> <a class="desktop-nav" href="/about"> About </a> </li>
+						<li> <a class="desktop-nav" href="/gallery"> Gallery </a> </li>
+						<li> <a class="desktop-nav" href="/services"> Services </a> </li>
+						<li> <a class="desktop-nav" href="/contact-us"> Contact Us </a> </li>
 					</ul>
 					<button class="desktop-header-button"> Build a Quote </button>
 				</div>
