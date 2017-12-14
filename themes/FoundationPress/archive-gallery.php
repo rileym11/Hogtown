@@ -25,6 +25,8 @@ get_header(); ?>
 <section class="gallery-relative-wrap">
 	<div class="gallery-filter-list-container">
 		<form class="gallery-filter-list" action="">
+			<!--<label for="all">All</label>
+			<input type="checkbox" id="all" value="all">-->
 			<label for="head-body">Head &amp; Body</label>
 			<input type="checkbox" id="head-body"  value="head-body">
 			<label for="uni-body">Uni-Body</label>
@@ -47,7 +49,7 @@ get_header(); ?>
 			<input type="checkbox" id="schools"  value="schools">
 			<label for="government">Government</label>
 			<input type="checkbox" id="government" value="government">
-			
+			<hr class="third-filter-hr">
 			<button class="gallery-filter-button" type="submit">Done</button>
 			
 

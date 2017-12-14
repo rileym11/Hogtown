@@ -37,6 +37,8 @@ $('.gallery-filter-list').on('submit', function(event){
     //alert($(this).val());
    
   });
+} else {
+  $('.gallery-image').show();
 }
 });
 
@@ -46,8 +48,12 @@ $('.gallery-filter-button').on('click', function (){
 });
 
 function toggleFilter() {
+  if (window.innerWidth > 1023){
   $('.gallery-filter-list-container').toggle();
+  } else {
+  $('.gallery-filter-list-container').toggle();    
   $('.gallery-forum').toggle();
+  }
 }
 
 
