@@ -136,6 +136,34 @@
   .orbit-bullets button {
     border: 1px solid white;
   }
+  .orbit-container {
+    height: auto;
+  }
+}
+.orbit-mobile {
+  width: 100%;
+  .orbit-bullets {
+    margin-bottom: 0;
+  }
+  .orbit-bullets button {
+    border: 1px solid white;
+  }
+  .orbit-container {
+    height: auto;
+  }
+}
+.orbit-desktop {
+  display: none;
+  width: 100%;
+  .orbit-bullets {
+    margin-bottom: 0;
+  }
+  .orbit-bullets button {
+    border: 1px solid white;
+  }
+  .orbit-container {
+    height: auto;
+  }
 }
 .brand-slides {
   margin-top: 1rem;
@@ -195,8 +223,83 @@
   height: 3rem;
   .hashtag {
     color: $darkgrey;
+    font-size: 1.2rem;
     margin-bottom: none;
     margin-top: 1.8rem;
     text-align: center;
+  }
+}
+
+.insta-thumbnails {
+  display: none;
+}
+
+// Media queries begin
+
+// Breakpoint for desktop
+@media screen and (min-width: $large) {
+  .build-quote {
+    padding-top: 2rem;
+    a {
+      display: none;
+    }
+  }
+  .our-process {
+    height: 25rem;
+    .our-process-section {
+      display: flex;
+      flex-direction: row;
+      .our-process-image {
+        width: 30%;
+      }
+      .our-process-head {
+        flex-wrap: wrap-reverse;
+      }
+    }
+    .front-page-btn {
+      width: 20%;
+    }
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    .orbit-bullets {
+      position: absolute;
+    }
+    .our-services-text {
+      padding-left {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    }
+  }
+  .orbit-mobile {
+    display: none;
+  }
+  .orbit-desktop {
+    display: block;
+  }
+  .brand-slides-desktop {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: $lightgrey;
+  }
+  .hashtag {
+    font-size: 1.375rem;
+  }
+  .insta-slider {
+    display: none;
+  }
+  .insta-thumbnails {
+    display: block;
+  }
+  .jr-insta-thumb {
+    padding-bottom: 4rem;
+    img {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 }
