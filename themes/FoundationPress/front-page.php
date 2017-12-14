@@ -197,6 +197,10 @@ get_header(); ?>
           <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
         </nav>
       </div>
+      <div class="hashtag-section">
+        <p class="hashtag">#hogtownmascots</p>
+      </div>
+      <?php echo do_shortcode( '[jr_instagram id="2"]' ) ?>
 		</main>
 		<?php get_sidebar(); ?>
 	</div>
