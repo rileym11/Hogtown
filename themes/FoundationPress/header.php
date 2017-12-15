@@ -62,8 +62,6 @@
 						</ul>
 					</div>
 				</div>
-
-
 				<div class="desktop-flexy-header">
 					<ul>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Our Story' )) ?>"> About </a> </li>
@@ -73,7 +71,6 @@
 					</ul>
 					<button class="desktop-header-button"> Build a Quote </button>
 				</div>
-
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
