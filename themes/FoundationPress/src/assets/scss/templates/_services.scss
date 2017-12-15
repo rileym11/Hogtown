@@ -45,3 +45,122 @@
 .dropdown-services-container {
 	background-color: $whitegrey;
 }
+
+@media only screen and (min-width: $large) {
+
+.dropdown-services-container {
+	display: none;
+}
+
+#services-page-title { 
+	margin: 30px 0px; 
+}
+
+.services-img {
+	width: 100vw;
+	height: 500px;
+}
+
+.desktop-services-container {
+	display: flex; 
+	width: 100%; 
+	background-color: $whitegrey;
+}
+
+.desktop-services-sidemenu {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+
+	li {
+		list-style-type: none;
+		margin: 20px 0px;
+		margin-left: 40px;
+	}
+
+}
+
+.desktop-services-content {
+	display: flex; 
+	flex-direction: column;
+	width: 60%;
+}
+
+.desktop-services-service {
+	border-bottom: 1px solid grey;
+	margin: 15px 0px;
+
+	p {
+	font-size: 17px;
+	color: $darkgrey;
+	font-family: $body-font;
+	border: none;
+	}
+
+	h3 {
+	font-size: 23px;
+	color: $darkgrey;
+	font-family: $heading-font;
+	border: none;
+	}
+
+}
+
+.desktop-services-service-last {
+	margin: 15px 0px;
+
+	p {
+	font-size: 17px;
+	color: $darkgrey;
+	font-family: $body-font;
+	border: none;
+	}
+
+	h3 {
+	font-size: 23px;
+	color: $darkgrey;
+	font-family: $heading-font;
+	border: none;
+	}
+
+}
+
+.desktop-services-sidemenu-link {
+	font-size: 18px;
+	color: $blue;
+	font-family: $heading-font;
+	border: none;
+}
+
+.desktop-services-service-top {
+	border-bottom: 1px solid grey;
+	margin-top: 40px;
+
+	p {
+	font-size: 17px;
+	color: $darkgrey;
+	font-family: $body-font;
+	border: none;
+	}
+
+	h3 {
+	font-size: 23px;
+	color: $darkgrey;
+	font-family: $heading-font;
+	border: none;
+	}
+}
+
+#custom-top {
+	margin-top: 42px;
+}
+
+a:hover {
+	color: $blue;
+}
+
+
+
+
+
+}

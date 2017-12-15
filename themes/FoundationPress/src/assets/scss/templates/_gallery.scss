@@ -169,6 +169,7 @@
            
          
          .main-container {
+            
              .header-break{
          
         
@@ -178,7 +179,8 @@
                 width: 100vw;
                  
                  h1{
-                 //margin
+                    
+                 margin-left: 12rem;
                      
                  }
                  a{
@@ -195,23 +197,35 @@
                  }
                  
              }
+             .gallery-center{
+                 display: flex;
+                 justify-content: center;
+                 width: 100vw;
+
              .gallery-relative-wrap {
                     position: relative;
+                    min-height: 50rem;
+                    max-width: 50rem; 
                  
                  .gallery-filter-list-container {
                position: absolute;
+            
                background: $white;
-               height: 40rem;
+               height: 30rem;
                width: 25rem;
                right: 0px;
          
                      .gallery-filter-list {
-                    
+                        background: $white;
+                        height: 30rem;
+                        width: 25rem;
                          hr{
-                       
+                            border: 1px solid transparent;
                          }
          
                          input{
+                             margin-top: 0px;
+                             margin-bottom: 0px;
                         
                              &:checked {
                              }
@@ -236,7 +250,7 @@
                  
              
                  .main-grid {
-                  
+                  width: 50rem;
                      .main-content {
                         
          
@@ -246,6 +260,7 @@
                      }
                  }
              }
+            }
          }
          }
     }
