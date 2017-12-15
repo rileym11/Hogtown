@@ -24,10 +24,10 @@
 	<header class="site-header" role="banner">
 
 		<nav class="site-navigation-top-bar" role="navigation">
-			<!--HeaderLogo --> 
-				
-				<div class="flexyheader"> 
-					<?php echo '<a href="' . esc_url( home_url( '/' ) ) . '"><img id=headerlogo src=' . get_template_directory_uri() . '/dist/assets/images/Logos/hogtown_logo.png' . ' /></a>'  ?> 
+			<!--HeaderLogo -->
+
+				<div class="flexyheader">
+					<?php echo '<a href="' . esc_url( home_url( '/' ) ) . '"><img id=headerlogo src=' . get_template_directory_uri() . '/dist/assets/images/Logos/hogtown_logo.png' . ' /></a>'  ?>
 
 					<h1 id="headertitle">Hogtown Mascots</h1>
 					<!-- <button id=headerbutton src="">Build A Quote</button>  -->
@@ -63,8 +63,9 @@
 					</div>
 				</div>
 
-				<div class="desktop-flexy-header"> 
-					<ul> 
+
+				<div class="desktop-flexy-header">
+					<ul>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Our Story' )) ?>"> About </a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_post_type_archive_link('gallery') ?>"> Gallery </a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>"> Services </a> </li>
