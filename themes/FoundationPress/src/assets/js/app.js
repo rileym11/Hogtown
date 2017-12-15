@@ -46,3 +46,8 @@ function toggleFilter() {
 
 
 };
+
+$('.build-quote-next').on('click' , function() {
+  $('.page-one').hide();
+  $('.mascot-type').css( {display: 'block'} );
+});
