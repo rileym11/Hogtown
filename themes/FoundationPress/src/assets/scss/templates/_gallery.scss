@@ -114,6 +114,7 @@
             justify-content: center;
             align-items: center;
             .main-content {
+                margin-bottom: 2rem;
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
@@ -186,7 +187,7 @@
                  a{
                      background: $blue;
                      color: $white;
-                    left: 22vw;
+                    left: 17rem;
                     margin-bottom: 1rem; 
                     padding: 0.5rem 3rem 0.5rem 3rem;
                      &:hover {
@@ -209,16 +210,16 @@
                  
                  .gallery-filter-list-container {
                position: absolute;
-            
+                width: 20rem; 
                background: $white;
                height: 30rem;
-               width: 25rem;
                right: 0px;
          
                      .gallery-filter-list {
                         background: $white;
+
                         height: 30rem;
-                        width: 25rem;
+                        width: 23rem;
                          hr{
                             border: 1px solid transparent;
                          }
