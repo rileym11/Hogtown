@@ -8,7 +8,9 @@ get_header()
 <div class="main-container">
 
   <h1 id="services-page-title"> Services </h1>
-  <img class="services-img" src="<?php echo get_template_directory_uri() . '/src/assets/images/Services/IMG_1223.jpg'?>" /> 
+  <div class="services-img-container">
+    <img class="services-img" src="<?php echo get_template_directory_uri() . '/src/assets/images/Services/IMG_1223.jpg'?>" /> 
+  </div>
 
   <div class="dropdown-services-container"> 
 
