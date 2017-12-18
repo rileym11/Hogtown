@@ -24,19 +24,24 @@
   </div>
   <div class="mascot-type-content">
     <h2 class="build-quote-head">Pick Your Mascot Type</h2>
-    <div class="mascot-container">
-      <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Pizza1.svg" alt="Pizza Mascot">
+    <div class="container">
+      <div class="mascot-container">
+        <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Pizza1.svg" alt="Pizza Mascot">
+      </div>
+      <div class="mascot-container">
+        <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Bear1.svg" alt="Bear Mascot">
+      </div>
     </div>
-    <div class="mascot-container">
-      <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Bear1.svg" alt="Bear Mascot">
+    <div class="text-container">
+      <div class="unibody-text">
+        <h3>Uni-Body</h3>
+        <p>A large structure that fits over the entire body with only the limbs exposed</p>
+      </div>
+      <div class="head-body-text">
+        <h4>Head and Body</h4>
+        <p>Head is separated from bodysuit or clothing</p>
+      </div>
     </div>
-    <div class="mascot-type-text">
-      <h3>Uni-Body</h3>
-      <p>A large structure that fits over the entire body with only the limbs exposed</p>
-      <h4>Head and Body</h4>
-      <p>Head is separated from bodysuit or clothing</p>
-    </div>
-
     <button type="submit" class="build-quote-back">< Back</button>
     <button type="submit" class="build-quote-next">Next ></button>
   </div>
