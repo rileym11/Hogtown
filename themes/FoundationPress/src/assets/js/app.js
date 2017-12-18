@@ -69,3 +69,8 @@ $('.build-quote-back-head-type').on('click' , function() {
   $('.mascot-type').css("display", "block");
 });
 
+$('.build-quote-next-head-type').on('click', function() {
+  $('.mascot-head-type').hide();
+  $('.mascot-body-type').css("display", "flex");
+});
+

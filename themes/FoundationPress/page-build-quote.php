@@ -68,6 +68,46 @@
   <button type="submit" class="build-quote-next-head-type">Next ></button>
   </div>
 </div>
+    <!-- Pick your body type div --> 
+<div class="mascot-body-type"> 
+  <h2 class="build-quote-head"> Pick Your Body Type </h2> 
+    <div class="mascot-body-type-container"> 
+      <div class="ind-mascot-body">
+        <img class="ind-mascot-body-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Body.svg" alt="Body"> 
+        <h3 class="ind-mascot-body-title"> Body </h3>
+      </div>
+      <div class="ind-mascot-body">
+        <img class="ind-mascot-body-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Clothes.svg" alt="Clothes"> 
+        <h3 class="ind-mascot-body-title"> Clothes </h3>
+      </div>
+    </div>
+    <div class="mascot-body-btn-div"> 
+      <button type="submit" class="build-quote-back-body-type">< Back</button>
+      <button type="submit" class="build-quote-next-body-type">Next ></button>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    <?php get_sidebar(); ?>
    <?php get_footer();

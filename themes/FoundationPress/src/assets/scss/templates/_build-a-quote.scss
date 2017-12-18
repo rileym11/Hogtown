@@ -151,3 +151,62 @@
   font-weight: bolder;
   margin: 20px 20px;
 }
+
+/* pick your body type styling */ 
+
+.mascot-body-type {
+  display: none;
+  flex-direction: column;
+  background-color: $whitegrey;
+  padding: 10px;
+}
+
+.mascot-body-type-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+
+    .ind-mascot-body {
+      margin-top: 20px;
+      width: 40%;
+      margin: 2.5%;
+    }
+
+    .ind-mascot-body-img {
+      background-color: $lightgrey;
+      padding: 10px;
+      border: 1px solid grey;
+    }
+
+    .ind-mascot-body-title {
+      color: $darkgrey;
+      font-family: $body-font;
+      font-weight: bolder;
+      font-size: 19px;
+      margin-top: 10px;
+      text-align: center;
+    }
+}
+
+.mascot-body-btn-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.build-quote-back-body-type {
+  color: $blue;
+  font-family: $heading-font;
+  font-size: 1.425rem;
+  font-weight: bolder;
+  margin: 20px 20px;
+}
+
+.build-quote-next-body-type {
+  color: $blue;
+  font-family: $heading-font;
+  font-size: 1.425rem;
+  font-weight: bolder;
+  margin: 20px 20px;
+}
