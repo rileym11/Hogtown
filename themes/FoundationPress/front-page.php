@@ -19,12 +19,12 @@ get_header(); ?>
         <picture>
           <source media="(min-width: 1024px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
           <source media="(min-width: 768px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@2x.png" alt="Man Building Mascot">
-          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1.png" alt="Man Building Mascot">
+          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
         </picture>
-        <div class="build-quote">
-          <p class="hero-text">We create custom mascots for your special events.</p>
-          <a href="" class="front-page-btn">Build A Quote</a>
-        </div>
+      </div>
+      <div class="build-quote">
+        <p class="hero-text">We create custom mascots for your special events.</p>
+        <a href="" class="front-page-btn">Build A Quote</a>
       </div>
       <div class="our-process">
         <a href="./our-process/"><h1 class="section-header">Our Process</h1></a>

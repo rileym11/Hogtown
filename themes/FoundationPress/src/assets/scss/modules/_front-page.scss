@@ -13,6 +13,9 @@
 
 // Styling the hero image area
 .hero {
+  height: 250px;
+  display: relative;
+  overflow: hidden;
   width: 100vw;
   img {
     width: 100vw;
@@ -228,6 +231,9 @@
 // Breakpoint for Tablet
 
 @media screen and (min-width: 768px) {
+  .hero {
+    height: 450px;
+  }
   .orbit {
     .mascot-container {
       max-height: 350px;
@@ -236,6 +242,11 @@
 }
 // Breakpoint for desktop
 @media screen and (min-width: $large) {
+  .hero {
+    height: 500px;
+    picture {
+    }
+  }
   .build-quote {
     padding-top: 2rem;
     a {
