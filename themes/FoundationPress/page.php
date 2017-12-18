@@ -11,17 +11,21 @@
  */
 
 get_header(); ?>
-
-<?php get_template_part( 'template-parts/featured-image' ); ?>
-<div class="main-container">
-    <div class="main-grid">
-        <main class="main-content">
-            <?php while ( have_posts() ) : the_post(); ?>
-                <?php get_template_part( 'template-parts/content', 'page' ); ?>
-                <?php comments_template(); ?>
-            <?php endwhile;?>
-        </main>
-        <?php get_sidebar(); ?>
-    </div>
-</div>
+<table>
+  <tbody>
+    <tr>
+      <td><?php $props = CFS()->get_field_info( 'client' );
+      echo $props['label']; ?></td>
+      <td><?php echo '<p>' . CFS()->get( 'client' ) . '</p>' ?></td>
+      <td><?php $props = CFS()->get_field_info( 'location_and_time_zone' );
+      echo $props['label']; ?></td>
+      <td><?php echo '<p>' . CFS()->get( 'location_and_time_zone' ) . '</p>' ?></td>
+    </tr>
+    <tr>
+      <td><?php $props = CFS()->get_field_info( 'costume' );
+      echo $props['label']; ?></td>
+      <td><?php echo '<p>' . CFS()->get( 'costume' ) . '</p>' ?></td>
+    </tr>
+  </tbody>
+</table>
 <?php get_footer();

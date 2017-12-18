@@ -1,9 +1,9 @@
-<?php 
-/* Template Name: Services */ 
+<?php
+/* Template Name: Services */
 
 get_header()
 
-?> 
+?>
 
 <div class="main-container">
 
@@ -12,9 +12,9 @@ get_header()
     <img class="services-img" src="<?php echo get_template_directory_uri() . '/src/assets/images/Services/IMG_1223.jpg'?>" /> 
   </div>
 
-  <div class="dropdown-services-container"> 
+  <div class="dropdown-services-container">
 
-    <!-- Services Accordian --> 
+    <!-- Services Accordian -->
     <ul class="accordion" data-accordion>
       <li class="accordion-item" data-accordion-item>
 
@@ -25,7 +25,7 @@ get_header()
         <div class="accordion-content" data-tab-content>
          <?php echo '<p>' . CFS()->get( 'cleaning' ) . '</p>' ?>
        </div>
-     </li>  
+     </li>
      <li class="accordion-item" data-accordion-item>
 
       <a href="#" class="accordion-title">Storage</a>
@@ -33,7 +33,7 @@ get_header()
       <div class="accordion-content" data-tab-content>
         <?php echo '<p>' . CFS()->get( 'storage' ) . '</p>' ?>
       </div>
-    </li>  
+    </li>
     <li class="accordion-item" data-accordion-item>
 
      <a href="#" class="accordion-title">Recycling</a>
@@ -41,7 +41,7 @@ get_header()
      <div class="accordion-content" data-tab-content>
       <?php echo '<p>' . CFS()->get( 'recycling' ) . '</p>' ?>
     </div>
-  </li>  
+  </li>
   <li class="accordion-item" data-accordion-item>
 
    <a href="#" class="accordion-title">Training</a>
@@ -49,7 +49,7 @@ get_header()
    <div class="accordion-content" data-tab-content>
     <?php echo '<p>' . CFS()->get( 'training' ) . '</p>' ?>
   </div>
-</li>  
+</li>
 <li class="accordion-item" data-accordion-item>
 
  <a href="#" class="accordion-title">Licensing</a>
@@ -57,15 +57,16 @@ get_header()
  <div class="accordion-content" data-tab-content>
   <?php echo '<p>' . CFS()->get( 'licensing' ) . '</p>' ?>
 </div>
-</li>  
+</li>
 <li class="accordion-item" data-accordion-item>
 
  <a href="#" class="accordion-title">Sesame Street Appearances</a>
 
  <div class="accordion-content" data-tab-content>
   <?php echo '<p>' . CFS()->get( 'sesame_street_appearances' ) . '</p>' ?>
+  <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Sesame-street-imgs/sesame.jpg" alt="Sesame Street Appearances">
 </div>
-</li>  
+</li>
 <li class="accordion-item" data-accordion-item>
 
   <a href="#" class="accordion-title">Accessories</a>
@@ -73,16 +74,16 @@ get_header()
   <div class="accordion-content" data-tab-content>
     <?php echo '<p>' . CFS()->get( 'accessories' ) . '</p>' ?>
   </div>
-</li>  
+</li>
 <!-- End of Services Accordian -->
 </ul>
 
 </div>
 
-<!-- Desktop View --> 
-<div class="desktop-services-container"> 
-  <div class="desktop-services-sidemenu"> 
-    <ul> 
+<!-- Desktop View -->
+<div class="desktop-services-container">
+  <div class="desktop-services-sidemenu">
+    <ul>
       <li id="custom-top"> <a class="desktop-services-sidemenu-link" href="#"> Cleaning </a> </li>
       <li> <a class="desktop-services-sidemenu-link" href="#"> Storage </a> </li>
       <li> <a class="desktop-services-sidemenu-link" href="#"> Recycling </a> </li>
@@ -92,35 +93,36 @@ get_header()
       <li> <a class="desktop-services-sidemenu-link" href="#"> Accessories </a> </li>
     </ul>
   </div>
-  <div class="desktop-services-content"> 
-    <div class="desktop-services-service-top"> 
+  <div class="desktop-services-content">
+    <div class="desktop-services-service-top">
       <h3> Cleaning </h3>
       <?php echo '<p>' . CFS()->get( 'cleaning' ) . '</p>' ?>
-    </div> 
-    <div class="desktop-services-service"> 
+    </div>
+    <div class="desktop-services-service">
       <h3> Storage </h3>
       <?php echo '<p>' . CFS()->get( 'storage' ) . '</p>' ?>
-    </div> 
-    <div class="desktop-services-service"> 
+    </div>
+    <div class="desktop-services-service">
       <h3> Recycling </h3>
       <?php echo '<p>' . CFS()->get( 'recycling' ) . '</p>' ?>
-    </div> 
-    <div class="desktop-services-service"> 
+    </div>
+    <div class="desktop-services-service">
       <h3> Training </h3>
       <?php echo '<p>' . CFS()->get( 'training' ) . '</p>' ?>
-    </div> 
-    <div class="desktop-services-service"> 
+    </div>
+    <div class="desktop-services-service">
       <h3> Licensing </h3>
       <?php echo '<p>' . CFS()->get( 'licensing' ) . '</p>' ?>
-    </div> 
-    <div class="desktop-services-service"> 
+    </div>
+    <div class="desktop-services-service">
       <h3> Sesame Street Appearances </h3>
       <?php echo '<p>' . CFS()->get( 'sesame_street_appearances' ) . '</p>' ?>
-    </div> 
-    <div class="desktop-services-service-last"> 
+      <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Sesame-street-imgs/sesame.jpg" alt="Sesame Street Appearances">
+    </div>
+    <div class="desktop-services-service-last">
       <h3> Accessories </h3>
       <?php echo '<p>' . CFS()->get( 'accessories' ) . '</p>' ?>
-    </div> 
+    </div>
   </div>
 
 </div>
@@ -129,18 +131,3 @@ get_header()
 
 
 <?php get_footer() ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
