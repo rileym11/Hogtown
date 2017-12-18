@@ -35,7 +35,7 @@ get_header(); ?>
             <p class="our-process-text">We sketch your dream mascot</p>
           </div>
           <div class="build">
-            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/processTwo.png" class="our-process-image" alt="Sketch of Tiger Mascot">
+            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process2_Head@2x.png" class="our-process-image" alt="Sketch of Tiger Mascot">
             <p class="our-process-head">2. Build</p>
             <p class="our-process-text">We make the sketch come to life</p>
           </div>
@@ -51,13 +51,13 @@ get_header(); ?>
       <!-- Mascots slider -->
       <div class="our-mascots">
         <h2 class="section-header">Our Mascots</h2>
-        <div class="orbit" data-orbit>
+        <div class="orbit mascot-orbit" data-orbit>
           <div class="orbit-wrapper">
             <div class="orbit-controls">
               <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
               <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
             </div>
-            <ul class="orbit-container">
+            <ul class="orbit-container mascot-container">
               <li class="is-active orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
                   <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png" alt="Blue Mascot">
