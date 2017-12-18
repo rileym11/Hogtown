@@ -56,7 +56,7 @@
 											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Accessories and Plush Toys</a></li>
 										</ul>
 									</li>
-									<li class="dropdown-link"><a href="#">Build a Quote</a></li>
+									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Build a Quote' )) ?>">Build a Quote</a></li>
 								</ul>
 							</li>
 						</ul>

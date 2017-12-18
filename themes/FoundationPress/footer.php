@@ -13,13 +13,13 @@
 	<footer class="footer">
 		<div class="footer-link-container">
 			<div class="footer-site-links">
-				<a href="">Gallery</a>
-				<a href="">Contact Us</a>
-				<a href="">Our Process</a>
+				<a href="<?php echo get_post_type_archive_link('gallery') ?>">Gallery</a>
+				<a href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>">Contact Us</a>
+				<a href="<?php echo get_page_link(get_page_by_path( 'Our Process' )) ?>">Our Process</a>
 			</div>
 			<div class="footer-site-links">
-				<a href="">Services</a>
-				<a href="">About</a>
+				<a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Services</a>
+				<a href="<?php echo get_page_link(get_page_by_path( 'Our Story' )) ?>">About</a>
 			</div>
 		</div>
 			<div class= "footer-media-icons">

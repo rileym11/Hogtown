@@ -46,7 +46,7 @@ get_header(); ?>
           </div>
         </div>
           <br>
-          <a href="" class="front-page-btn">Learn More</a>
+          <a href="<?php echo get_page_link(get_page_by_path( 'Our Process' )) ?>" class="front-page-btn">Learn More</a>
       </div>
       <!-- Mascots slider -->
       <div class="our-mascots">
@@ -94,7 +94,7 @@ get_header(); ?>
           </nav>
         </div>
         <p class="our-mascots-text">We make custom mascots for schools, businesses, brands, charities and more. See what we've created and imagine what we could do for you!</p>
-        <a href="" class="front-page-btn">View Full Gallery</a>
+        <a href="<?php echo get_post_type_archive_link('gallery') ?>" class="front-page-btn">View Full Gallery</a>
       </div>
       <!-- Brand logos -->
       <div class="orbit-mobile brand-slides" data-orbit>
