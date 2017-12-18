@@ -51,7 +51,15 @@ function toggleFilter() {
   }
 }
 
-$('.build-quote-next').on('click' , function() {
+$('.build-quote-next-one').on('click' , function() {
   $('.page-one').hide();
   $('.mascot-type').css( {display: 'block'} );
+});
+
+$('.build-quote-next-two').on('click' , function() {
+  $('.mascot-type').hide();
+});
+$('.build-quote-back-two').on('click' , function() {
+  $(".page-one").show();
+  $('.mascot-type').hide();
 });

@@ -4,7 +4,7 @@
  <?php
 
  get_header(); ?>
-
+<!--
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 <div class="page-one">
@@ -14,7 +14,7 @@
   </picture>
   <h1 class="build-quote-head">Build Your Own Quote</h1>
   <p class="build-quote-text">Build your own quote is here to help you figure out an approximate cost for your dream mascot. This is not a final quote.</p>
-  <button type="submit" class="build-quote-next">Next ></button>
+  <button type="submit" class="build-quote-next-one">Next ></button>
 </div>
 <div class="mascot-type">
   <div class="progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
@@ -42,10 +42,17 @@
         <p>Head is separated from bodysuit or clothing</p>
       </div>
     </div>
-    <button type="submit" class="build-quote-back">< Back</button>
-    <button type="submit" class="build-quote-next">Next ></button>
+    <div class="second-byo-page-navbuttons">
+      <button type="submit" class="build-quote-back-two">< Back</button>
+      <button type="submit" class="build-quote-next-two">Next ></button>
+    </div>
   </div>
 </div>
-   <?php get_sidebar(); ?>
+<div class="">
+
+</div> -->
+<div style="min-height: 500px">
+  <?php echo do_shortcode('[contact-form-7 id="60" title="BYO"]' );?>
+</div>
    <?php get_footer();
 ?>
