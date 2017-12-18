@@ -42,16 +42,30 @@ $('.gallery-filter-button').on('click', function (){
 
 });
 
+
 function toggleFilter() {
   if (window.innerWidth > 1023){
   $('.gallery-filter-list-container').toggle();
   } else {
   $('.gallery-filter-list-container').toggle();    
   $('.gallery-forum').toggle();
-  }
-}
+  }}
+
+
 
 $('.build-quote-next').on('click' , function() {
   $('.page-one').hide();
   $('.mascot-type').css( {display: 'block'} );
+
 });
+
+$('.build-quote-next-mascot-type').on('click', function() {
+  $('.mascot-type').hide();
+  $('.mascot-head-type').css("display", "flex");
+}); 
+
+$('.build-quote-back-head-type').on('click' , function() {
+  $('.mascot-head-type').hide(); 
+  $('.mascot-type').css("display", "block");
+});
+

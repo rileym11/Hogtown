@@ -43,9 +43,32 @@
       </div>
     </div>
     <button type="submit" class="build-quote-back">< Back</button>
-    <button type="submit" class="build-quote-next">Next ></button>
+    <button type="submit" class="build-quote-next-mascot-type">Next ></button>
   </div>
 </div>
+  <!-- Pick your head type div --> 
+<div class="mascot-head-type"> 
+  <h2 class="build-quote-head"> Pick Your Head Type </h2>
+    <div class="mascot-head-type-container"> 
+      <div class="ind-mascot-head"> 
+        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/HumanHead.svg" alt="Human Head"> 
+        <h3 class="ind-mascot-title"> Human Head </h3>
+      </div>
+      <div class="ind-mascot-head"> 
+        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/BearHead.svg" alt="Bear Head"> 
+        <h3 class="ind-mascot-title"> Animal Head </h3>
+      </div>
+      <div class="ind-mascot-head"> 
+        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"> 
+        <h3 class="ind-mascot-title"> Animal Head </h3>
+      </div>
+    </div>  
+  <div class="mascot-head-btn-div"> 
+  <button type="submit" class="build-quote-back-head-type">< Back</button>
+  <button type="submit" class="build-quote-next-head-type">Next ></button>
+  </div>
+</div>
+
    <?php get_sidebar(); ?>
    <?php get_footer();
 ?>
