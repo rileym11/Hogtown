@@ -85,14 +85,28 @@
       <button type="submit" class="build-quote-back-body-type">< Back</button>
       <button type="submit" class="build-quote-next-body-type">Next ></button>
     </div>
-
-
-
-
-
-
-
-
+  </div>
+     <!-- Pick your detail div --> 
+<div class="mascot-detail-type"> 
+   <h2 class="build-quote-head"> Pick your level of detail </h2> 
+    <div class="mascot-detail-type-container"> 
+        <div class="mascot-detail-type-display"> 
+          <img class="mascot-detail-disply-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Clothes.svg" alt="Clothes""> 
+          <!-- JS will generate the text which appears below ^ this img -->
+        </div>  
+        <div class="mascot-detail-type-choices"> 
+          <img id="levelone" value="one" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"> 
+          <p class="mascot-detail-ind-txt"> Level 1 </p>
+          <img id="leveltwo" value="two" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"/> 
+          <p class="mascot-detail-ind-txt"> Level 2 </p>
+          <img id="levelthree" value="three" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"/> 
+          <p class="mascot-detail-ind-txt"> Level 3 </p>
+        </div>
+        <div class="mascot-detail-btn-div"> 
+           <button type="submit" class="build-quote-back-detail-type">< Back</button>
+           <button type="submit" class="build-quote-next-detail-type">Next ></button>
+        </div>
+    </div>  
 </div>
 
 
@@ -108,7 +122,12 @@
 
 
 
+<<<<<<< HEAD
 <?php echo do_shortcode(' [contact-form-7 id="54" title="Build A Quote"] ') ?>
+=======
+
+
+>>>>>>> 85481b9a4149f38df63d1036182915d33e459965
    <?php get_sidebar(); ?>
    <?php get_footer();
 ?>
