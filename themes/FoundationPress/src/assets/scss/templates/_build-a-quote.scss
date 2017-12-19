@@ -50,7 +50,18 @@
     text-align: center;
     width: 100%;
   }
-  .mascot-container {
+  .mascot-container-bear {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    background: $lightgrey;
+    height: 10rem;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 35%;
+  }
+  .mascot-container-pizza {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -88,7 +99,7 @@
     color: $blue;
     font-size: 1.375rem;
     font-weight: bold;
-    
+
   }
   .second-byo-page-navbuttons{
     display: flex;
@@ -311,4 +322,8 @@
   font-size: 1.425rem;
   font-weight: bolder;
   margin: 20px 20px;
+}
+
+.wpcf7-form {
+  display: none;
 }
