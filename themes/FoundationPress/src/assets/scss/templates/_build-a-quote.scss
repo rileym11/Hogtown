@@ -35,7 +35,6 @@
   font-size: 1.375rem;
   font-weight: bold;
   padding-bottom: 2rem;
-  padding-right: 1rem;
 }
 
 .mascot-type-content {
@@ -91,7 +90,6 @@
     font-weight: bold;
     padding-bottom: 2rem;
     padding-left: 2rem;
-    padding-right: 15rem;
   }
 }
 
@@ -152,6 +150,16 @@
   margin: 20px 20px;
 }
 
+.build-quote-next-mascot-type {
+  align-self: flex-end;
+  color: $blue;
+  font-family: $heading-font;
+  font-size: 1.375rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  margin-left: 13.5rem;
+}
+
 /* pick your body type styling */ 
 
 .mascot-body-type {
@@ -210,3 +218,108 @@
   font-weight: bolder;
   margin: 20px 20px;
 }
+
+/* pick your detail type styling */ 
+.mascot-detail-type {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mascot-detail-type-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mascot-detail-type-display {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  margin-top: 10px;
+
+    .mascot-detail-disply-img{
+      width: 100%;
+      padding: 2%;
+      border: 1px solid black;
+      height: 300px;
+    }
+}
+
+.mascot-detail-ind-txt {
+    color: $darkgrey;
+    font-family: $body-font;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: 0 15px;
+    line-height: .5;
+    margin-bottom: 10px;
+}
+
+.mascot-detail-type-choices {
+  width: 35%; 
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+    .mascot-detail-ind-choice {
+      width: 60%;
+      padding: 2.5%;
+      border: 1px solid black;
+      height: 80px;
+      margin: 10px 0px;
+    }
+}
+
+.mascot-detail-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.build-quote-back-detail-type {
+  color: $blue;
+  font-family: $heading-font;
+  font-size: 1.425rem;
+  font-weight: bolder;
+  margin: 20px 20px;
+}
+
+.build-quote-next-detail-type {
+  color: $blue;
+  font-family: $heading-font;
+  font-size: 1.425rem;
+  font-weight: bolder;
+  margin: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
