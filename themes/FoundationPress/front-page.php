@@ -60,27 +60,27 @@ get_header(); ?>
             <ul class="orbit-container mascot-container">
               <li class="is-active orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png" alt="Blue Mascot">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_0060.jpg" alt="Building a Mascot">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg" alt="Gator Mascot">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/DSCF9329.jpg" alt="Mascot heads and paws">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg" alt="OC Fair Mascots">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_2005.jpg" alt="Building Mascot Heads">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg" alt="Toad Mascot">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_0066.jpg" alt="CBC Mascots">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg" alt="Tuggy Mascots">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_3889.jpg" alt="Building Robot Head">
                 </figure>
               </li>
             </ul>
