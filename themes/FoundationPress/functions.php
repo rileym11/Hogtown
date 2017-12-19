@@ -54,13 +54,13 @@ require_once( 'library/responsive-images.php' );
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
 function enqueue_our_required_stylesheets(){
-	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
+	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 }
 add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 
 // Register Custom Post Type
 function gallery_post_type() {
-	
+
 		$labels = array(
 			'name'                  => _x( 'Photos', 'Gallery', 'text_domain' ),
 			'singular_name'         => _x( 'Gallery', 'Post Type Singular Name', 'text_domain' ),
@@ -110,13 +110,13 @@ function gallery_post_type() {
 			'capability_type'       => 'page',
 		);
 		register_post_type( 'gallery', $args );
-	
+
 	}
 	add_action( 'init', 'gallery_post_type', 0 );
 
 	// Register Custom Taxonomy
 function custom_taxonomy() {
-	
+
 		$labels = array(
 			'name'                       => _x( 'Mascot Types', 'Taxonomy General Name', 'text_domain' ),
 			'singular_name'              => _x( 'Mascot Type', 'Taxonomy Singular Name', 'text_domain' ),
@@ -149,6 +149,6 @@ function custom_taxonomy() {
 			'show_tagcloud'              => true,
 		);
 		register_taxonomy( 'mascot-type', array( 'gallery' ), $args );
-	
+
 	}
 	add_action( 'init', 'custom_taxonomy', 0 );
