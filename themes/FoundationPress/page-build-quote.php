@@ -109,20 +109,8 @@
     </div>  
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php echo do_shortcode(' [contact-form-7 id="54" title="Build A Quote"] ') ?>
+
    <?php get_sidebar(); ?>
    <?php get_footer();
 ?>
