@@ -18,7 +18,7 @@
   overflow: hidden;
   width: 100vw;
   img {
-    width: 100vw;
+    width: 100%;
   }
 }
 .build-quote {
@@ -243,9 +243,7 @@
 // Breakpoint for desktop
 @media screen and (min-width: $large) {
   .hero {
-    height: 500px;
-    picture {
-    }
+    height: 400px;
   }
   .build-quote {
     padding-top: 2rem;
