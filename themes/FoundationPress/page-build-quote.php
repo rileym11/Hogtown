@@ -4,7 +4,7 @@
  <?php
 
  get_header(); ?>
-<!--
+
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
 <div class="page-one">
@@ -46,42 +46,42 @@
     <button type="submit" class="build-quote-next-mascot-type">Next ></button>
   </div>
 </div>
-  <!-- Pick your head type div --> 
-<div class="mascot-head-type"> 
+  <!-- Pick your head type div -->
+<div class="mascot-head-type">
   <h2 class="build-quote-head"> Pick Your Head Type </h2>
-    <div class="mascot-head-type-container"> 
-      <div class="ind-mascot-head"> 
-        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/HumanHead.svg" alt="Human Head"> 
+    <div class="mascot-head-type-container">
+      <div class="ind-mascot-head">
+        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/HumanHead.svg" alt="Human Head">
         <h3 class="ind-mascot-title"> Human Head </h3>
       </div>
-      <div class="ind-mascot-head"> 
-        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/BearHead.svg" alt="Bear Head"> 
+      <div class="ind-mascot-head">
+        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/BearHead.svg" alt="Bear Head">
         <h3 class="ind-mascot-title"> Animal Head </h3>
       </div>
-      <div class="ind-mascot-head"> 
-        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"> 
+      <div class="ind-mascot-head">
+        <img class="ind-mascot-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head">
         <h3 class="ind-mascot-title"> Animal Head </h3>
       </div>
-    </div>  
-  <div class="mascot-head-btn-div"> 
+    </div>
+  <div class="mascot-head-btn-div">
   <button type="submit" class="build-quote-back-head-type">< Back</button>
   <button type="submit" class="build-quote-next-head-type">Next ></button>
   </div>
 </div>
-    <!-- Pick your body type div --> 
-<div class="mascot-body-type"> 
-  <h2 class="build-quote-head"> Pick Your Body Type </h2> 
-    <div class="mascot-body-type-container"> 
+    <!-- Pick your body type div -->
+<div class="mascot-body-type">
+  <h2 class="build-quote-head"> Pick Your Body Type </h2>
+    <div class="mascot-body-type-container">
       <div class="ind-mascot-body">
-        <img class="ind-mascot-body-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Body.svg" alt="Body"> 
+        <img class="ind-mascot-body-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Body.svg" alt="Body">
         <h3 class="ind-mascot-body-title"> Body </h3>
       </div>
       <div class="ind-mascot-body">
-        <img class="ind-mascot-body-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Clothes.svg" alt="Clothes"> 
+        <img class="ind-mascot-body-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Clothes.svg" alt="Clothes">
         <h3 class="ind-mascot-body-title"> Clothes </h3>
       </div>
     </div>
-    <div class="mascot-body-btn-div"> 
+    <div class="mascot-body-btn-div">
       <button type="submit" class="build-quote-back-body-type">< Back</button>
       <button type="submit" class="build-quote-next-body-type">Next ></button>
     </div>
@@ -108,7 +108,7 @@
 
 
 
-
+<?php echo do_shortcode(' [contact-form-7 id="54" title="Build A Quote"] ') ?>
    <?php get_sidebar(); ?>
    <?php get_footer();
 ?>

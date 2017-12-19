@@ -56,6 +56,7 @@
 											<li class="submenu-link"><a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>">Accessories and Plush Toys</a></li>
 										</ul>
 									</li>
+									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Client-Login' )) ?>">Client Login</a></li>
 									<li class="dropdown-link"><a href="<?php echo get_page_link(get_page_by_path( 'Build a Quote' )) ?>">Build a Quote</a></li>
 								</ul>
 							</li>
@@ -68,6 +69,7 @@
 						<li> <a class="desktop-nav" href="<?php echo get_post_type_archive_link('gallery') ?>"> Gallery </a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>"> Services </a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>"> Contact Us </a> </li>
+						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Client-Login' )) ?>"> Client Login </a> </li>
 					</ul>
 					<button class="desktop-header-button"> Build a Quote </button>
 				</div>
