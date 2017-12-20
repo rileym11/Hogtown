@@ -28,7 +28,7 @@
 .mascot-type {
   display: none;
 }
-.build-quote-next {
+.build-quote-next-two, .build-quote-next-one {
   align-self: flex-end;
   color: $blue;
   font-family: $heading-font;
@@ -50,7 +50,18 @@
     text-align: center;
     width: 100%;
   }
-  .mascot-container {
+  .mascot-container-bear {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    background: $lightgrey;
+    height: 10rem;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 35%;
+  }
+  .mascot-container-pizza {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -62,12 +73,13 @@
     width: 35%;
   }
   .text-container {
+    text-align: center;
     display: inline-flex;
   }
   .unibody-text {
     font-family: $body-font;
     padding-left: 4rem;
-    text-align: left;
+    //text-align: left;
     width: 45%;
     h3 {
       font-weight: bold;
@@ -76,13 +88,13 @@
   .head-body-text {
     font-family: $body-font;
     padding-left: 1.75rem;
-    text-align: left;
+    //text-align: left;
     width: 45%;
     h4 {
       font-weight: bold;
     }
   }
-  .build-quote-back {
+  .build-quote-back, .build-quote-back-two  {
     align-self: flex-start;
     color: $blue;
     font-family: $heading-font;
@@ -91,10 +103,10 @@
   }
   .second-byo-page-navbuttons{
     display: flex;
-
     font-family: $heading-font;
     flex-direction: row;
     justify-content: space-between;
+
     .build-quote-next-two{
       padding-bottom: 0px;
       padding-right: 0px;
@@ -107,9 +119,15 @@
 
     }
   }
+  .mascot-type-btn-div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
-/* pick your head type styling */ 
+/* pick your head type styling */
 
 .mascot-head-type {
   display: none;
@@ -120,7 +138,7 @@
 
 .mascot-head-type-container {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   margin-top: 10px;
 
@@ -176,7 +194,7 @@
   margin-left: 13.5rem;
 }
 
-/* pick your body type styling */ 
+/* pick your body type styling */
 
 .mascot-body-type {
   display: none;
@@ -235,7 +253,7 @@
   margin: 20px 20px;
 }
 
-/* pick your detail type styling */ 
+/* pick your detail type styling */
 .mascot-detail-type {
   width: 100%;
   display: none;
@@ -243,19 +261,24 @@
   justify-content: center;
 }
 
+.mascot-detail-type-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .mascot-detail-type-display {
   width: 50%;
   display: flex;
   flex-direction: column;
   margin: 0 5%;
-  margin-top:15px;
-
-    .mascot-detail-disply-img{
-      background-color: $lightgrey;
-      width: 100%;
-      padding: 5%;
-      height: 300px;
-    }
+  margin-top: 10px;
+  .mascot-detail-disply-img{
+    width: 100%;
+    padding: 2%;
+    border: 1px solid black;
+    height: 300px;
+  }
 }
 
 .mascot-detail-ind-txt {
@@ -269,7 +292,7 @@
 }
 
 .mascot-detail-type-choices {
-  width: 35%; 
+  width: 35%;
   margin-right: 5%;
   display: flex;
   flex-direction: column;
@@ -278,6 +301,7 @@
     .mascot-detail-ind-choice {
       width: 60%;
       padding: 2.5%;
+      border: 1px solid black;
       height: 80px;
       margin: 10px 0px;
     }
@@ -305,63 +329,9 @@
   margin: 20px 20px;
 }
 
-.levels {
-    color: $darkgrey;
-    font-family: $body-font;
-    font-size: 17px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.mascot-detail-type-display-lashes {
-  width: 50%;
+.build-quote form {
   display: none;
-  flex-direction: column;
-  margin: 0 5%;
-  margin-top:15px;
-}
-
-.mascot-detail-disply-img-lashes{
-      background-color: $lightgrey;
-      width: 100%;
-      padding: 5%;
-      height: 300px;
-    }
-
-.mascot-detail-type-display-glasses {
-  width: 50%;
-.build-quote.wpcf7-form {
-  display: none;
-  flex-direction: column;
-  margin: 0 5%;
-  margin-top:15px;
-
-}
-
-  .mascot-detail-disply-img-glasses{
-      background-color: $lightgrey;
-      width: 100%;
-      padding: 5%;
-      height: 300px;
-    }
-
-.interactive-container {
-  display: flex;
   margin-left: 2rem;
   margin-right: 2rem;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
