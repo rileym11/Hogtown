@@ -74,6 +74,16 @@ $('.build-quote-next-head-type').on('click', function() {
   $('.mascot-body-type').css("display", "flex");
 });
 
+$('.build-quote-back-body-type').on('click', function() {
+  $('.mascot-body-type').hide();
+  $('.mascot').css('display', 'block');
+});
+
+$('.build-quote-next-body-type').on('click', function() {
+  $('.mascot-body-type').hide();
+});
+
+// Filling out Contact Form 7 checkboxes depending on which element is clicked
 $('.mascot-container-pizza').on('click', function() {
   $('input:radio[value=uni-body]:nth(0)').attr('checked' , true);
 });
@@ -100,4 +110,16 @@ $('#body').on('click', function() {
 
 $('#clothes').on('click', function() {
   $('input:radio[value=Clothes]:nth(0)').attr('checked' , true);
+});
+
+$('#level-one').on('click', function() {
+  $('input:radio[value=levelone]:nth(0)').attr('checked' , true);
+});
+
+$('#level-two').on('click', function() {
+  $('input:radio[value=leveltwo]:nth(0)').attr('checked' , true);
+});
+
+$('#level-three').on('click', function() {
+  $('input:radio[value=levelthree]:nth(0)').attr('checked' , true);
 });
