@@ -86,6 +86,37 @@
       <button type="submit" class="build-quote-next-body-type">Next ></button>
     </div>
   </div>
+
+     <!-- Pick your detail div --> 
+<div class="mascot-detail-type"> 
+   <h2 class="build-quote-head"> Pick your level of detail </h2> 
+      <div class="interactive-container"> 
+        <div class="mascot-detail-type-display"> 
+         <img id="mascot-plain" class="mascot-detail-disply-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/big-plain.png" alt="Level One"> 
+         <p class="levels"> Level 1: The basics </p>
+         </div>  
+          <!-- All on display: none until clicked -->
+        <div class="mascot-detail-type-display-lashes"> 
+         <img id="mascot-lashes" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/big-lashes.png" alt="Level Two"> 
+         <p class="levels"> Level 2: A little more </p>
+         </div> 
+
+         <div class="mascot-detail-type-display-glasses"> 
+         <img id="mascot-glasses" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/big-glasses.png" alt="Level Three"> 
+         <p class="levels"> Level 3: The works! </p>
+         </div> 
+          <!-- --> 
+        <div class="mascot-detail-type-choices"> 
+          <img id="levelone" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/small-plain.png" alt="Plain Head"> 
+          <p class="mascot-detail-ind-txt"> Level 1 </p>
+          <img id="leveltwo" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/small-lashes.png" alt="Lashes Head"/> 
+          <p class="mascot-detail-ind-txt"> Level 2 </p>
+          <img id="levelthree" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/small-glasses.png" alt="Glasses Head"/> 
+          <p class="mascot-detail-ind-txt"> Level 3 </p>
+        </div>
+      </div>
+        <div class="mascot-detail-btn-div"> 
+
      <!-- Pick your detail div -->
 <div class="mascot-detail-type">
    <h2 class="build-quote-head"> Pick your level of detail </h2>
@@ -103,6 +134,7 @@
           <p class="mascot-detail-ind-txt"> Level 3 </p>
         </div>
         <div class="mascot-detail-btn-div">
+
            <button type="submit" class="build-quote-back-detail-type">< Back</button>
            <button type="submit" class="build-quote-next-detail-type">Next ></button>
         </div>
