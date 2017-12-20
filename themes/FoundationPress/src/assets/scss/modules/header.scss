@@ -58,7 +58,6 @@ a:hover, a:focus {
 	width: 80vw;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	left: 1rem;
 	top: .55rem;
 	z-index: 1;
 }
@@ -95,14 +94,14 @@ a:hover, a:focus {
       .site-navigation-top-bar {
 			background-color: #504b47;
 			display: flex; 
-			height: 5.5rem;
+			height: 4rem;
 	  }
 
 	  #headerlogo {
 			width: 4rem;
 			margin-left: 2rem;
 			position: absolute;
-			top: 1.25rem;
+			top: 0.5rem;
 		}
 		
 		body.logged-in {
@@ -141,7 +140,7 @@ a:hover, a:focus {
 				text-decoration: none;
 				font-family: $heading-font;
 				color: $whitegrey;
-				font-size: 20px;
+				font-size: 1rem;
 			   }
 	  		 }
 
