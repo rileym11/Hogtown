@@ -1,0 +1,18 @@
+@import '../hogtown_vars.scss';
+
+.content {
+  height: 100vh;
+}
+table {
+  font-family: $body-font;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  td {
+    border: 1px solid #dddddd;
+  }
+  .labels {
+    font-weight: bold;
+  }
+}

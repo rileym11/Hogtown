@@ -3,12 +3,21 @@
 
 #services-page-title {
 	font-family: $heading-font;
-	color: $darkgrey; 
+	color: $darkgrey;
 	text-align: center;
-	font-size: 25px; 
+	font-size: 2rem;
 	margin: 20px 0px;
 }
-
+.services-img-container {
+	display: relative;
+	overflow: hidden;
+	height: 250px;
+}
+.services-img {
+	display: absolute;
+	width: 100%;
+	// height: 250px;
+}
 
 .accordion {
 	margin: 0 5%;
@@ -42,6 +51,9 @@
 .dropdown-services-container {
 	background-color: $whitegrey;
 }
+.desktop-services-container {
+	display: none;
+}
 
 @media only screen and (min-width: $large) {
 
@@ -49,18 +61,21 @@
 	display: none;
 }
 
-#services-page-title { 
-	margin: 30px 0px; 
+#services-page-title {
+	margin: 30px 0px;
 }
 
-.services-img-div {
-	width: 100vw; 
-	height: auto;
+.services-img-container {
+	height: 400px;
+}
+.services-img {
+	width: 100%;
+	// height: 500px;
 }
 
 .desktop-services-container {
-	display: flex; 
-	width: 100%; 
+	display: flex;
+	width: 100%;
 	background-color: $whitegrey;
 }
 
@@ -78,7 +93,7 @@
 }
 
 .desktop-services-content {
-	display: flex; 
+	display: flex;
 	flex-direction: column;
 	width: 60%;
 }

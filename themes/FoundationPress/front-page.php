@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Home Template*/
+/* * Template Name: Home Template*/
  ?>
  <?php
 /**
@@ -19,12 +19,12 @@ get_header(); ?>
         <picture>
           <source media="(min-width: 1024px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
           <source media="(min-width: 768px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@2x.png" alt="Man Building Mascot">
-          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1.png" alt="Man Building Mascot">
+          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
         </picture>
-        <div class="build-quote">
-          <p class="hero-text">We create custom mascots for your special events.</p>
-          <a href="" class="front-page-btn">Build A Quote</a>
-        </div>
+      </div>
+      <div class="build-quote">
+        <p class="hero-text">We create custom mascots for your special events.</p>
+        <a href="" class="front-page-btn">Build A Quote</a>
       </div>
       <div class="our-process">
         <a href="./our-process/"><h1 class="section-header">Our Process</h1></a>
@@ -35,7 +35,7 @@ get_header(); ?>
             <p class="our-process-text">We sketch your dream mascot</p>
           </div>
           <div class="build">
-            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/processTwo.png" class="our-process-image" alt="Sketch of Tiger Mascot">
+            <img src="<?php bloginfo('template_url'); ?>/src/assets/images/About-Page/Our-Process/Process2_Head@2x.png" class="our-process-image" alt="Sketch of Tiger Mascot">
             <p class="our-process-head">2. Build</p>
             <p class="our-process-text">We make the sketch come to life</p>
           </div>
@@ -46,41 +46,41 @@ get_header(); ?>
           </div>
         </div>
           <br>
-          <a href="" class="front-page-btn">Learn More</a>
+          <a href="<?php echo get_page_link(get_page_by_path( 'Our Process' )) ?>" class="front-page-btn">Learn More</a>
       </div>
       <!-- Mascots slider -->
       <div class="our-mascots">
         <h2 class="section-header">Our Mascots</h2>
-        <div class="orbit" data-orbit>
+        <div class="orbit mascot-orbit" data-orbit>
           <div class="orbit-wrapper">
             <div class="orbit-controls">
               <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
               <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
             </div>
-            <ul class="orbit-container">
+            <ul class="orbit-container mascot-container">
               <li class="is-active orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/blue-mascot.png" alt="Blue Mascot">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_0060.jpg" alt="Building a Mascot">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/gator_mascot.jpg" alt="Gator Mascot">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/DSCF9329.jpg" alt="Mascot heads and paws">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/oc_fair_mascots.jpg" alt="OC Fair Mascots">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_2005.jpg" alt="Building Mascot Heads">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/load_toad_mascot.jpg" alt="Toad Mascot">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_0066.jpg" alt="CBC Mascots">
                 </figure>
               </li>
               <li class="orbit-slide responsive-embed widescreen">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/Tuggy.jpg" alt="Tuggy Mascots">
+                  <img class="orbit-image" src="<?php bloginfo('template_url'); ?>/src/assets/images/Mascots/IMG_3889.jpg" alt="Building Robot Head">
                 </figure>
               </li>
             </ul>
@@ -94,7 +94,7 @@ get_header(); ?>
           </nav>
         </div>
         <p class="our-mascots-text">We make custom mascots for schools, businesses, brands, charities and more. See what we've created and imagine what we could do for you!</p>
-        <a href="" class="front-page-btn">View Full Gallery</a>
+        <a href="<?php echo get_post_type_archive_link('gallery') ?>" class="front-page-btn">View Full Gallery</a>
       </div>
       <!-- Brand logos -->
       <div class="orbit-mobile brand-slides" data-orbit>

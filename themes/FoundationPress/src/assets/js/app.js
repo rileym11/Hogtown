@@ -47,25 +47,25 @@ function toggleFilter() {
   if (window.innerWidth > 1023){
   $('.gallery-filter-list-container').toggle();
   } else {
-  $('.gallery-filter-list-container').toggle();    
+  $('.gallery-filter-list-container').toggle();
   $('.gallery-forum').toggle();
   }}
 
 
 
-$('.build-quote-next').on('click' , function() {
+$('.build-quote-next-one').on('click' , function() {
   $('.page-one').hide();
-  $('.mascot-type').css( {display: 'block'} );
+  $('.mascot-type').css( {'display': 'block'} );
 
 });
 
 $('.build-quote-next-mascot-type').on('click', function() {
   $('.mascot-type').hide();
   $('.mascot-head-type').css("display", "flex");
-}); 
+});
 
 $('.build-quote-back-head-type').on('click' , function() {
-  $('.mascot-head-type').hide(); 
+  $('.mascot-head-type').hide();
   $('.mascot-type').css("display", "block");
 });
 
@@ -73,6 +73,7 @@ $('.build-quote-next-head-type').on('click', function() {
   $('.mascot-head-type').hide();
   $('.mascot-body-type').css("display", "flex");
 });
+
 
 $('.build-quote-next-body-type').on('click', function () {
   $('.mascot-body-type').hide();
@@ -95,7 +96,33 @@ $('#levelthree').on('click', function() {
    $('.mascot-detail-type-display-lashes').css("display" , "none");
   $('.mascot-detail-type-display-glasses').css("display" , "flex");
   $('.mascot-detail-type-display').css("display" , "none");
+}); 
+
+$('.mascot-container-pizza').on('click', function() {
+  $('input:radio[value=uni-body]:nth(0)').attr('checked' , true);
 });
 
+$('.mascot-container-bear').on('click', function() {
+  $('input:radio[value=head-body]:nth(0)').attr('checked' , true);
+});
 
+$('#human-head').on('click', function() {
+  $('input:radio[value=humanhead]:nth(0)').attr('checked' , true);
+});
 
+$('#animal-head').on('click', function() {
+  $('input:radio[value=animalhead]:nth(0)').attr('checked' , true);
+
+});
+
+$('#monster-head').on('click', function() {
+  $('input:radio[value=monsterhead]:nth(0)').attr('checked' , true);
+});
+
+$('#body').on('click', function() {
+  $('input:radio[value=Body]:nth(0)').attr('checked' , true);
+});
+
+$('#clothes').on('click', function() {
+  $('input:radio[value=Clothes]:nth(0)').attr('checked' , true);
+});
