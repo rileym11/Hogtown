@@ -14,9 +14,9 @@
 // Styling the hero image area
 .hero {
   height: 250px;
-  display: relative;
+  position: relative;
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
   img {
     width: 100%;
   }
@@ -52,7 +52,7 @@
 // Styling entire our-process div
 .our-process {
   background: $lightgrey;
-  width: 100vw;
+  // width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +115,6 @@
   background: url('/hogtown/wp-content/themes/FoundationPress/src/assets/images/Services/services.png');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
   padding-bottom: 2rem;
 }
 .our-services-text {
