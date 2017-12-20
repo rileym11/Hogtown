@@ -198,7 +198,7 @@ get_header(); ?>
         <div class="our-services">
           <h3 class="services-header">Our Services</h3>
           <p class="our-services-text">We offer mascot cleanings, repairs and recycling, among many other services.</p>
-          <a href="" class="front-page-btn">Learn More</a>
+          <a href="<?php echo get_page_link(get_page_by_path( 'Services' )) ?>" class="front-page-btn">Learn More</a>
         </div>
         <!-- Testimonial slider -->
         <div class="orbit testimonial-slides" data-orbit>
