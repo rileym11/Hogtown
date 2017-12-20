@@ -77,51 +77,25 @@ $('.build-quote-next-head-type').on('click', function() {
 $('.build-quote-next-body-type').on('click', function () {
   $('.mascot-body-type').hide();
   $('.mascot-detail-type').css("display", "flex");
-  theresLevelsToThisShit();
 });
 
-
-
-function theresLevelsToThisShit() {
-
-var selected = '';
-
 $('#levelone').on('click', function() {
-  var lvlone = $('<p class=levels> Level 1: The basics </p>');
-  $('.mascot-detail-type-display').append(lvlone);
-}); 
+  $('.mascot-detail-type-display-lashes').css("display" , "none");
+  $('.mascot-detail-type-display-glasses').css("display" , "none");
+  $('.mascot-detail-type-display').css("display" , "flex");
+});
 
 $('#leveltwo').on('click', function() {
-  var lvltwo = $('<p class=level> Level 2: A little more </p>');
-  $('.mascot-detail-type-display').append(lvltwo);
-}); 
+   $('.mascot-detail-type-display-lashes').css("display" , "flex");
+  $('.mascot-detail-type-display-glasses').css("display" , "none");
+  $('.mascot-detail-type-display').css("display" , "none");
+});
 
 $('#levelthree').on('click', function() {
-  var lvlthree = $('<p class=three> Level 3: The works! </p>');
-  $('.mascot-detail-type-display').append(lvlthree);
-}); 
-
-if ($('#levelone').value == "one") {
-  $('.mascot-detail-type-display').append(lvlone);
-} else if ('#leveltwo', '#levelthree' == selected) {
-  return false; 
-}
-
-}
-
-
-/*
-function ifSelected(selected) {
-  if (selected != '') {
-    return false;
-  } else {
-    return true;
-  }
-}
-*/ 
-
-
-
+   $('.mascot-detail-type-display-lashes').css("display" , "none");
+  $('.mascot-detail-type-display-glasses').css("display" , "flex");
+  $('.mascot-detail-type-display').css("display" , "none");
+});
 
 
 

@@ -227,23 +227,17 @@
   justify-content: center;
 }
 
-.mascot-detail-type-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .mascot-detail-type-display {
   width: 50%;
   display: flex;
   flex-direction: column;
   margin: 0 5%;
-  margin-top: 10px;
+  margin-top:15px;
 
     .mascot-detail-disply-img{
+      background-color: $lightgrey;
       width: 100%;
-      padding: 2%;
-      border: 1px solid black;
+      padding: 5%;
       height: 300px;
     }
 }
@@ -268,7 +262,6 @@
     .mascot-detail-ind-choice {
       width: 60%;
       padding: 2.5%;
-      border: 1px solid black;
       height: 80px;
       margin: 10px 0px;
     }
@@ -296,21 +289,51 @@
   margin: 20px 20px;
 }
 
+.levels {
+    color: $darkgrey;
+    font-family: $body-font;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 
 
+.mascot-detail-type-display-lashes {
+  width: 50%;
+  display: none;
+  flex-direction: column;
+  margin: 0 5%;
+  margin-top:15px;
+}
 
+.mascot-detail-disply-img-lashes{
+      background-color: $lightgrey;
+      width: 100%;
+      padding: 5%;
+      height: 300px;
+    }
 
+.mascot-detail-type-display-glasses {
+  width: 50%;
+  display: none;
+  flex-direction: column;
+  margin: 0 5%;
+  margin-top:15px;
 
+}
 
+  .mascot-detail-disply-img-glasses{
+      background-color: $lightgrey;
+      width: 100%;
+      padding: 5%;
+      height: 300px;
+    }
 
-
-
-
-
-
-
-
+.interactive-container {
+  display: flex;
+}
 
 
 
