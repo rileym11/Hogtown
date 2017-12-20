@@ -11,16 +11,12 @@
 
 get_header(); ?>
 
-<?php get_template_part( 'template-parts/featured-image' ); ?>
+
 <div class="main-container">
   <div class="main-grid">
     <main class="">
       <div class="hero">
-        <picture>
-          <source media="(min-width: 1024px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
-          <source media="(min-width: 768px)" srcset="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@2x.png" alt="Man Building Mascot">
-          <img src="<?php bloginfo('template_url'); ?>/src/assets/images/homepageAssets1@3x.png" alt="Man Building Mascot">
-        </picture>
+        <?php the_post_thumbnail() ?>
       </div>
       <div class="build-quote">
         <p class="hero-text">We create custom mascots for your special events.</p>
