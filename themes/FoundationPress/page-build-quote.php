@@ -1,9 +1,6 @@
 <?php
 /* Template Name: Build A Quote*/
- ?>
- <?php
-
- get_header(); ?>
+get_header(); ?>
 
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
@@ -91,26 +88,26 @@
    <h2 class="build-quote-head"> Pick your level of detail </h2> 
       <div class="interactive-container"> 
         <div class="mascot-detail-type-display"> 
-         <img id="mascot-plain" class="mascot-detail-disply-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/big-plain.png" alt="Level One"> 
+         <img id="mascot-plain" class="mascot-detail-disply-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/big-plain.png" alt="Level One"> 
          <p class="levels"> Level 1: The basics </p>
          </div>  
           <!-- All on display: none until clicked -->
         <div class="mascot-detail-type-display-lashes"> 
-         <img id="mascot-lashes" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/big-lashes.png" alt="Level Two"> 
+         <img id="mascot-lashes" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/big-lashes.png" alt="Level Two"> 
          <p class="levels"> Level 2: A little more </p>
          </div> 
 
          <div class="mascot-detail-type-display-glasses"> 
-         <img id="mascot-glasses" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/big-glasses.png" alt="Level Three"> 
+         <img id="mascot-glasses" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/big-glasses.png" alt="Level Three"> 
          <p class="levels"> Level 3: The works! </p>
          </div> 
           <!-- --> 
         <div class="mascot-detail-type-choices"> 
-          <img id="levelone" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/small-plain.png" alt="Plain Head"> 
+          <img id="levelone" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/small-plain.png" alt="Plain Head"> 
           <p class="mascot-detail-ind-txt"> Level 1 </p>
-          <img id="leveltwo" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/small-lashes.png" alt="Lashes Head"/> 
+          <img id="leveltwo" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/small-lashes.png" alt="Lashes Head"/> 
           <p class="mascot-detail-ind-txt"> Level 2 </p>
-          <img id="levelthree" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-qoute-assets/small-glasses.png" alt="Glasses Head"/> 
+          <img id="levelthree" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/small-glasses.png" alt="Glasses Head"/> 
           <p class="mascot-detail-ind-txt"> Level 3 </p>
         </div>
       </div>
@@ -121,21 +118,4 @@
     </div>  
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <?php get_sidebar(); ?>
-   <?php get_footer();
-?>
+<?php get_footer(); ?>
