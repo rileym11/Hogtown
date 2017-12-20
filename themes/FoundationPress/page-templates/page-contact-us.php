@@ -13,10 +13,10 @@ get_header(); ?>
   </p>
 
   <div class="column-container">
-  
-  
 
-  <?php echo do_shortcode( '[contact-form-7 id="23" title="Contact Page"]' ); ?>
+
+
+  <?php echo do_shortcode( '[contact-form-7 id="51" title="Contact Page"]' ); ?>
 
   <div class="contact-map">
     <div class="contact-info">
@@ -32,7 +32,7 @@ get_header(); ?>
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.050578350922!2d-79.43389068414706!3d43.68871187912019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3384701a0239%3A0xad240a2316b9d25b!2sHogtown+Mascots+Inc.!5e0!3m2!1sen!2sca!4v1512748820818" width="100%" height="375px" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-      
+
     </div>
 
     <div class="location-info">
@@ -42,7 +42,7 @@ get_header(); ?>
       <p>M6C 2N9</p>
     </div>
   </div>
-  
+
 
   </div>
 
