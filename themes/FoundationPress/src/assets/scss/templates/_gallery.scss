@@ -1,4 +1,9 @@
 @import '../_hogtown_vars.scss';
+
+hr {
+    max-width: none;
+}
+
 .post-type-archive-gallery {
    
   
@@ -210,6 +215,7 @@
 
              .gallery-relative-wrap {
                     position: relative;
+                    max-width: 70vw;
                  
                  .gallery-filter-list-container {
                position: absolute;
