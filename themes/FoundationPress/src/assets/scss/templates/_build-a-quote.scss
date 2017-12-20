@@ -4,6 +4,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 100vw;
   picture {
     padding-bottom: 2rem;
     padding-top: 4rem;
@@ -323,7 +324,7 @@
   margin: 20px 20px;
 }
 
-.wpcf7-form {
+.build-quote.wpcf7-form {
   display: none;
   margin-left: 2rem;
   margin-right: 2rem;

@@ -81,6 +81,7 @@ $('.build-quote-back-body-type').on('click', function() {
 
 $('.build-quote-next-body-type').on('click', function() {
   $('.mascot-body-type').hide();
+  $('.wpcf7-form').css('display', 'block');
 });
 
 // Filling out Contact Form 7 checkboxes depending on which element is clicked
