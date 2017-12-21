@@ -128,12 +128,16 @@ hr {
                 .gallery-image {
                     position: relative;
                     overflow: hidden;
-                    height: 15vw;
-                    width: 15vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40vw;
+                    width: 40vw;
                     margin: 0.5rem;
                     img {
                         position: absolute;
                         width: 150%;
+                        height: 100%;
                         max-width: none;
                     }
                 }
@@ -151,6 +155,16 @@ hr {
            
          
          .main-container {
+             .gallery-relative-wrap{
+                 .main-grid{
+                     .main-content{
+                         .gallery-image{
+                            height: 15vw;
+                            width: 15vw;
+                         }
+                     }
+                 }
+             }
              .header-break{
          
         
