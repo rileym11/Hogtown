@@ -107,6 +107,11 @@ $('.build-quote-next-body-type').on('click', function() {
   $('.page-template-page-build-quote .wpcf7-form').css('display', 'block');
 });
 
+$('.build-quote-back-detail-type').on('click', function() {
+  $('.mascot-detail-type').hide(); 
+  $('.')
+});
+
 // Filling out Contact Form 7 checkboxes depending on which element is clicked
 $('.mascot-container-pizza').on('click', function() {
   $('input:radio[value=uni-body]:nth(0)').attr('checked' , true);
