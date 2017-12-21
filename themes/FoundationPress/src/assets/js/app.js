@@ -79,19 +79,19 @@ $('.build-quote-next-body-type').on('click', function () {
   $('.mascot-detail-type').css("display", "flex");
 });
 
-$('#levelone').on('click', function() {
+$('#level-one').on('click', function() {
   $('.mascot-detail-type-display-lashes').css("display" , "none");
   $('.mascot-detail-type-display-glasses').css("display" , "none");
   $('.mascot-detail-type-display').css("display" , "flex");
 });
 
-$('#leveltwo').on('click', function() {
+$('#level-two').on('click', function() {
    $('.mascot-detail-type-display-lashes').css("display" , "flex");
   $('.mascot-detail-type-display-glasses').css("display" , "none");
   $('.mascot-detail-type-display').css("display" , "none");
 });
 
-$('#levelthree').on('click', function() {
+$('#level-three').on('click', function() {
    $('.mascot-detail-type-display-lashes').css("display" , "none");
   $('.mascot-detail-type-display-glasses').css("display" , "flex");
   $('.mascot-detail-type-display').css("display" , "none");
@@ -108,8 +108,20 @@ $('.build-quote-next-body-type').on('click', function() {
 });
 
 $('.build-quote-back-detail-type').on('click', function() {
-  $('.mascot-detail-type').hide();
-  $('.')
+
+  $('.mascot-detail-type').hide(); 
+  $('.mascot-body-type').css("display", "flex");
+});
+
+$('.build-quote-back').on('click', function() {
+  $('.mascot-type').hide(); 
+  $('.page-one').css("display", "flex");
+});
+
+$('.build-quote-back-body-type').on('click', function() {
+  $('.mascot-body-type').hide(); 
+  $('.mascot-head-type').css("display", "flex");
+
 });
 
 // Filling out Contact Form 7 checkboxes depending on which element is clicked
