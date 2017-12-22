@@ -87,7 +87,7 @@ get_header(); ?>
           <h3 class="ind-mascot-title"> Animal Head </h3>
         </div>
         <div class="ind-mascot-head">
-          <img class="ind-mascot-img" id="monster-head" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head">
+          <img class="ind-mascot-img" id="x" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head">
           <h3 class="ind-mascot-title"> Monster Head </h3>
         </div>
       </div>
@@ -146,25 +146,37 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <h2 class="build-quote-head"> Pick your level of detail </h2>
-      <div class="mascot-detail-type-container">
-        <div class="mascot-detail-type-display">
-          <img class="mascot-detail-disply-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Clothes.svg" alt="Clothes">
-          <!-- JS will generate the text which appears below ^ this img -->
+      <div class="mascot-detail-type">
+        <h2 class="build-quote-head"> Pick your level of detail </h2>
+        <div class="interactive-container">
+          <div class="mascot-detail-type-display">
+            <img id="mascot-plain" class="mascot-detail-disply-img" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/big-plain.png" alt="Level One">
+            <p class="levels"> Level 1: The basics </p>
+          </div>
+          <!-- All on display: none until clicked -->
+          <div class="mascot-detail-type-display-lashes">
+            <img id="mascot-lashes" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/big-lashes.png" alt="Level Two">
+            <p class="levels"> Level 2: A little more </p>
+          </div>
+
+          <div class="mascot-detail-type-display-glasses">
+            <img id="mascot-glasses" class="mascot-detail-disply-img-lashes" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/big-glasses.png" alt="Level Three">
+            <p class="levels"> Level 3: The works! </p>
+          </div>
+          <!-- -->
+          <div class="mascot-detail-type-choices">
+            <img id="level-one" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/small-plain.png" alt="Plain Head">
+            <p class="mascot-detail-ind-txt"> Level 1 </p>
+            <img id="level-two" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/small-lashes.png" alt="Lashes Head"/>
+            <p class="mascot-detail-ind-txt"> Level 2 </p>
+            <img id="level-three" class="mascot-detail-ind-choice" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/small-glasses.png" alt="Glasses Head"/>
+            <p class="mascot-detail-ind-txt"> Level 3 </p>
+          </div>
+          <div class="mascot-detail-btn-div">
+            <button type="submit" class="build-quote-back-detail-type">< Back</button>
+            <button type="submit" class="build-quote-next-detail-type">Next ></button>
+          </div>
         </div>
-        <div class="mascot-detail-type-choices">
-          <img id="levelone" value="one" class="mascot-detail-ind-choice" id="level-one" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head">
-          <p class="mascot-detail-ind-txt"> Level 1 </p>
-          <img id="leveltwo" value="two" class="mascot-detail-ind-choice" id="level-two" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"/>
-          <p class="mascot-detail-ind-txt"> Level 2 </p>
-          <img id="levelthree" value="three" class="mascot-detail-ind-choice" id="level-three" src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/MonsterHead.svg" alt="Monster Head"/>
-          <p class="mascot-detail-ind-txt"> Level 3 </p>
-        </div>
-        <div class="mascot-detail-btn-div">
-          <button type="submit" class="build-quote-back-detail-type">< Back</button>
-          <button type="submit" class="build-quote-next-detail-type">Next ></button>
-        </div>
-      </div>
     </div>
     <div class="quote-page">
       <div class="progress-bar-quote">

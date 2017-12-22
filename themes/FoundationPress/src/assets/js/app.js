@@ -71,12 +71,13 @@ $('.build-quote-next-head-type').on('click', function() {
   $('.mascot-body-type').css("display", "flex");
   $('.progress-text-container-body-type').css('display', 'flex');
   $('.progress-bar-container-body-type').css('display', 'flex');
+  $('.progress-details').css('background', '#f5f0eb');
 });
 
 $('.build-quote-next-body-type').on('click', function () {
   $('.mascot-body-type').hide();
   $('.mascot-detail-type').css("display", "flex");
-  $('.progress-details').css('border', '1px solid #f5f0eb');
+  $('.progress-details').css('border', '1px solid #dddddd');
   $('.progress-text-container-display').css('display', 'flex');
   $('.progress-bar-container-display').css('display', 'flex');
 });
@@ -106,7 +107,6 @@ $('.build-quote-back-body-type').on('click', function() {
 
 $('.build-quote-next-body-type').on('click', function() {
   $('.mascot-body-type').hide();
-  $('.page-template-page-build-quote .wpcf7-form').css('display', 'block');
 });
 
 $('.build-quote-back-detail-type').on('click', function() {
@@ -115,10 +115,15 @@ $('.build-quote-back-detail-type').on('click', function() {
   $('.build-quote form').css('display', 'none');
 });
 
+$('.build-quote-next-detail-type').on('click', function(){
+  $('.mascot-detail-type').hide();
+  $('.quote-page').css('display', 'flex');
+  $('.build-quote form').css('display', 'block');
+})
 $('.build-quote-back').on('click', function() {
   $('.mascot-type').hide();
   $('.page-one').css("display", "flex");
-  $('.build-quote form').css('display', 'none');
+  $('.build-quote').css('display', 'none');
 });
 
 $('.build-quote-back-head-type').on('click' , function() {
@@ -138,11 +143,6 @@ $('.mascot-container-pizza').on('click', function() {
   $('input:radio[value=uni-body]:nth(0)').attr('checked' , true);
   $('.mascot-container-pizza').css('border', '2px solid #62c7c9');
 });
-
-//if $('.mascot-container-pizza').click(function( event ) {
-  //$('.mascot-containe-bear').css('border', 'none');
-//});
-
 
 $('.mascot-container-bear').on('click', function() {
   $('input:radio[value=head-body]:nth(0)').attr('checked' , true);
@@ -183,5 +183,3 @@ $('#level-three').on('click', function() {
   $('input:radio[value=levelthree]:nth(0)').attr('checked' , true);
   $('#level-three').css('border', '2px solid #62c7c9');
 });
-
-// Javascript for Progress bar
