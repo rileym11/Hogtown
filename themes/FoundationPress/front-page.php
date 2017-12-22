@@ -15,9 +15,19 @@ get_header(); ?>
 <div class="main-container">
   <div class="main-grid">
     <main class="">
-      <div class="hero">
-        <?php the_post_thumbnail() ?>
-      </div>
+      <?php 
+    if ( $post = get_page_by_path( 'front-page', OBJECT, 'page' ) )
+    $id = $post->ID;
+else
+    $id = 0;
+    ?>
+    <?php if (has_post_thumbnail($id) ): ?>
+  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id($id), 'single-post-thumbnail' ); ?>
+  
+      <div class="hero" style="background-image: url('<?php echo $image[0]  ?>'); background-repeat: no-repeat; background-size: cover, cover;">
+   
+    </div>
+<?php endif; ?>
       <div class="build-quote">
         <p class="hero-text">We create custom mascots for your special events.</p>
         <a href="" class="front-page-btn">Build A Quote</a>
