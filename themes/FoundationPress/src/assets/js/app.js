@@ -167,7 +167,6 @@ $('#level-three').on('click', function() {
 });
 //Smooth Scrolling for Services Page
 
-
 $("a[href*='#']:not(a[href='#'])").click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
       || location.hostname == this.hostname) {
@@ -182,4 +181,5 @@ $("a[href*='#']:not(a[href='#'])").click(function() {
       }
   }
 });
+
 
