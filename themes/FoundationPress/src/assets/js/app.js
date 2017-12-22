@@ -165,3 +165,10 @@ $('#level-three').on('click', function() {
   $('input:radio[value=levelthree]:nth(0)').attr('checked' , true);
   $('#level-three').css('border', '2px solid #62c7c9');
 });
+
+
+//For the actual quote $$ $$ 
+  //Mascot Type
+var pizza = $('.mascot-container-pizza');
+var bear = $('.mascot-container-bear');
+
