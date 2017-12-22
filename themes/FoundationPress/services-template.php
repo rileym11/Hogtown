@@ -84,42 +84,42 @@ get_header()
 <div class="desktop-services-container">
   <div class="desktop-services-sidemenu">
     <ul>
-      <li id="custom-top"> <a class="desktop-services-sidemenu-link" href="#"> Cleaning </a> </li>
-      <li> <a class="desktop-services-sidemenu-link" href="#"> Storage </a> </li>
-      <li> <a class="desktop-services-sidemenu-link" href="#"> Recycling </a> </li>
-      <li> <a class="desktop-services-sidemenu-link" href="#"> Training </a> </li>
-      <li> <a class="desktop-services-sidemenu-link" href="#"> Licensing </a> </li>
-      <li> <a class="desktop-services-sidemenu-link" href="#"> Sesame Street Appearances </a> </li>
-      <li> <a class="desktop-services-sidemenu-link" href="#"> Accessories </a> </li>
+      <li id="custom-top"> <a class="desktop-services-sidemenu-link" href="#cleaning"> Cleaning </a> </li>
+      <li> <a class="desktop-services-sidemenu-link" href="#storage"> Storage </a> </li>
+      <li> <a class="desktop-services-sidemenu-link" href="#recycling"> Recycling </a> </li>
+      <li> <a class="desktop-services-sidemenu-link" href="#training"> Training </a> </li>
+      <li> <a class="desktop-services-sidemenu-link" href="#licensing"> Licensing </a> </li>
+      <li> <a class="desktop-services-sidemenu-link" href="#ssa"> Sesame Street Appearances </a> </li>
+      <li> <a class="desktop-services-sidemenu-link" href="#accessories"> Accessories </a> </li>
     </ul>
   </div>
   <div class="desktop-services-content">
-    <div class="desktop-services-service-top">
+    <div id='cleaning' class="desktop-services-service-top">
       <h3> Cleaning </h3>
       <?php echo '<p>' . CFS()->get( 'cleaning' ) . '</p>' ?>
     </div>
-    <div class="desktop-services-service">
+    <div id='storage' class="desktop-services-service">
       <h3> Storage </h3>
       <?php echo '<p>' . CFS()->get( 'storage' ) . '</p>' ?>
     </div>
-    <div class="desktop-services-service">
+    <div id='recycling' class="desktop-services-service">
       <h3> Recycling </h3>
       <?php echo '<p>' . CFS()->get( 'recycling' ) . '</p>' ?>
     </div>
-    <div class="desktop-services-service">
+    <div id='training' class="desktop-services-service">
       <h3> Training </h3>
       <?php echo '<p>' . CFS()->get( 'training' ) . '</p>' ?>
     </div>
-    <div class="desktop-services-service">
+    <div id='licensing' class="desktop-services-service">
       <h3> Licensing </h3>
       <?php echo '<p>' . CFS()->get( 'licensing' ) . '</p>' ?>
     </div>
-    <div class="desktop-services-service">
+    <div id='ssa' class="desktop-services-service">
       <h3> Sesame Street Appearances </h3>
       <?php echo '<p>' . CFS()->get( 'sesame_street_appearances' ) . '</p>' ?>
       <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Sesame-street-imgs/sesame.jpg" alt="Sesame Street Appearances">
     </div>
-    <div class="desktop-services-service-last">
+    <div id='accessories' class="desktop-services-service-last">
       <h3> Accessories </h3>
       <?php echo '<p>' . CFS()->get( 'accessories' ) . '</p>' ?>
     </div>
