@@ -30,7 +30,7 @@ else
 <?php endif; ?>
       <div class="build-quote">
         <p class="hero-text">We create custom mascots for your special events.</p>
-        <a href="" class="front-page-btn">Build A Quote</a>
+        <a href="./build-a-quote/" class="front-page-btn">Build A Quote</a>
       </div>
       <div class="our-process">
         <a href="./our-process/"><h1 class="section-header">Our Process</h1></a>
