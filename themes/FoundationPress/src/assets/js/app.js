@@ -62,21 +62,23 @@ $('.build-quote-next-one').on('click' , function() {
 $('.build-quote-next-mascot-type').on('click', function() {
   $('.mascot-type').hide();
   $('.mascot-head-type').css("display", "flex");
-});
-
-$('.build-quote-back-head-type').on('click' , function() {
-  $('.mascot-head-type').hide();
-  $('.mascot-type').css("display", "block");
+  $('.progress-text-container-head-type').css('display', 'flex');
+  $('.progress-bar-container-head-type').css('display', 'flex');
 });
 
 $('.build-quote-next-head-type').on('click', function() {
   $('.mascot-head-type').hide();
   $('.mascot-body-type').css("display", "flex");
+  $('.progress-text-container-body-type').css('display', 'flex');
+  $('.progress-bar-container-body-type').css('display', 'flex');
 });
 
 $('.build-quote-next-body-type').on('click', function () {
   $('.mascot-body-type').hide();
   $('.mascot-detail-type').css("display", "flex");
+  $('.progress-details').css('border', '1px solid #f5f0eb');
+  $('.progress-text-container-display').css('display', 'flex');
+  $('.progress-bar-container-display').css('display', 'flex');
 });
 
 $('#level-one').on('click', function() {
@@ -108,20 +110,27 @@ $('.build-quote-next-body-type').on('click', function() {
 });
 
 $('.build-quote-back-detail-type').on('click', function() {
-
-  $('.mascot-detail-type').hide(); 
+  $('.mascot-detail-type').hide();
   $('.mascot-body-type').css("display", "flex");
+  $('.build-quote form').css('display', 'none');
 });
 
 $('.build-quote-back').on('click', function() {
-  $('.mascot-type').hide(); 
+  $('.mascot-type').hide();
   $('.page-one').css("display", "flex");
+  $('.build-quote form').css('display', 'none');
+});
+
+$('.build-quote-back-head-type').on('click' , function() {
+  $('.mascot-head-type').hide();
+  $('.mascot-type').css("display", "block");
+  $('.build-quote form').css('display', 'none');
 });
 
 $('.build-quote-back-body-type').on('click', function() {
-  $('.mascot-body-type').hide(); 
+  $('.mascot-body-type').hide();
   $('.mascot-head-type').css("display", "flex");
-
+  $('.build-quote form').css('display', 'none');
 });
 
 // Filling out Contact Form 7 checkboxes depending on which element is clicked
@@ -130,6 +139,15 @@ $('.mascot-container-pizza').on('click', function() {
   $('.mascot-container-pizza').css('border', '2px solid #62c7c9');
 });
 
+//if $('.mascot-container-pizza').click(function( event ) {
+  //$('.mascot-containe-bear').css('border', 'none');
+//});
+
+
+$('.mascot-container-bear').on('click', function() {
+  $('input:radio[value=head-body]:nth(0)').attr('checked' , true);
+  $('.mascot-container-bear').css('border', '2px solid #62c7c9');
+});
 
 $('#animal-head').on('click', function() {
   $('input:radio[value=animalhead]:nth(0)').attr('checked' , true);
@@ -165,3 +183,5 @@ $('#level-three').on('click', function() {
   $('input:radio[value=levelthree]:nth(0)').attr('checked' , true);
   $('#level-three').css('border', '2px solid #62c7c9');
 });
+
+// Javascript for Progress bar
