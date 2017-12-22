@@ -153,3 +153,21 @@ $('#level-three').on('click', function() {
   $('input:radio[value=levelthree]:nth(0)').attr('checked' , true);
   $('#level-three').css('border', '2px solid #62c7c9');
 });
+//Smooth Scrolling for Services Page
+
+
+$("a[href*='#']:not(a[href='#'])").click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+      || location.hostname == this.hostname) {
+
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html,body').animate({
+               scrollTop: target.offset().top
+          }, 1000);
+          return false;
+      }
+  }
+});
+
