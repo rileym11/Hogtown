@@ -71,7 +71,7 @@
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Contact Us' )) ?>">Contact Us</a> </li>
 						<li> <a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Blog Page' )) ?>">Blog</a> </li>
 					</ul>
-					<a href="<?php echo get_page_link(get_page_by_path( 'Build a Quote' )) ?>"><button class="desktop-header-button"> Build a Quote </button></a>
+					<a class="desktop-nav" href="<?php echo get_page_link(get_page_by_path( 'Build a Quote' )) ?>"><button class="desktop-header-button"> Build a Quote </button></a>
 				</div>
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>

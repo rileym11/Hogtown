@@ -156,7 +156,10 @@ a:hover, a:focus {
 	        font-family: $heading-font;
 	        font-size: 19px;
 	        padding: 10px;
-	        text-align: center;
+					text-align: center;
+				&:hover {
+					cursor: pointer;
+				}
 		}
 
 
