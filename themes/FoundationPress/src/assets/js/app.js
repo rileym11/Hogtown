@@ -19,8 +19,6 @@ $('.gallery-filter' ).on('click', function displaytoggle(){
 
 });
 
-
-
 $('.gallery-filter-list').on('submit', function(event){
   event.preventDefault();
 
