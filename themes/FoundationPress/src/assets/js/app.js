@@ -292,7 +292,8 @@ $('#level-three').on('click', function() {
 $('.build-quote-next-detail-type').on('click', function() {
   if (one || two || three == true) {
   $('.mascot-detail-type').hide();
-  $('.mascot-body-type').css("display", "flex");
+  $('.build-quote .wpcf7').show();
+  $('.build-quote .wpcf7 .hidethis').hide();
 } else {
   alert('Please select your level of detail');
 }
@@ -301,7 +302,7 @@ $('.build-quote-next-detail-type').on('click', function() {
 $('.build-quote-back-detail-type').on('click', function() {
   $('.mascot-detail-type').hide(); 
   $('.mascot-body-type').css("display", "flex");
-});
+}); 
 
 //Smooth Scrolling for Services Page
 
