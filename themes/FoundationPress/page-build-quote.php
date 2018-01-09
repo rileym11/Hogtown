@@ -126,7 +126,7 @@ get_header(); ?>
           <button type="submit" class="build-quote-next-detail-type">Next ></button>
         </div>
     </div>
-    <?php echo do_shortcode(' [contact-form-7 id="66" title="Build A Quote"] ') ?>
+    <?php echo do_shortcode(' [contact-form-7 id="60" title="BYO"] ') ?>
 </div>
    <?php get_footer();
 ?>
