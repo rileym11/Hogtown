@@ -292,9 +292,9 @@ $('#level-three').on('click', function() {
  }); 
 
 $('.build-quote-next-detail-type').on('click', function() {
-  if (one || two || three == true) {
+  if (one || two || three) {
   $('.mascot-detail-type').hide();
-  $('.build-quote .wpcf7').show();
+  $('.build-quote .wpcf7-form').show();
   $('.build-quote .wpcf7 .hidethis').hide();
 } else {
   alert('Please select your level of detail');
