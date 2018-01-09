@@ -26,21 +26,23 @@ get_header(); ?>
       <div class="mascot-type-content">
         <h2 class="build-quote-head">Pick Your Mascot Type</h2>
         <div class="container">
-          <div class="mascot-container-pizza">
+          <div class="mascot-container mascot-container-pizza">
             <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/Pizza1.svg" alt="Pizza Mascot">
+            <div class="unibody-text">
+              <h4 class="mascot-type-text">Uni-Body</h4>
+              <p>A large structure that fits over the entire body with only the limbs exposed</p>
+            </div>
           </div>
-          <div class="mascot-container-bear">
+          <div class="mascot-container mascot-container-bear">
             <img src="<?php bloginfo('template_url'); ?>/src/assets/images/Build-Quote/build-quote-assets/Bear1.svg" alt="Bear Mascot">
+            <div class="head-body-text">
+              <h4 class="mascot-type-text">Head &amp; Body</h4>
+              <p>Head is separated from bodysuit or clothing</p>
+            </div>
           </div>
-        </div>
-        <div class="text-container">
-          <div class="unibody-text">
-            <h3>Uni-Body</h3>
-            <p>A large structure that fits over the entire body with only the limbs exposed</p>
-          </div>
-          <div class="head-body-text">
-            <h4>Head and Body</h4>
-            <p>Head is separated from bodysuit or clothing</p>
+          <div class="text-container">
+            
+            
           </div>
         </div>
         <div class="mascot-type-btn-div">

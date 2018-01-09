@@ -55,53 +55,31 @@
     text-align: center;
   }
   .container {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     text-align: center;
     width: 100%;
+    color: $darkgrey;
+    background-color: $lightgrey;
+    margin-bottom: 2rem;
   }
-  .mascot-container-bear {
-    display: inline-flex;
-    flex-direction: row;
+  .mascot-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    background: $lightgrey;
-    height: 10rem;
-    margin: auto;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    width: 35%;
-  }
-  .mascot-container-pizza {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
-    background: $lightgrey;
-    height: 10rem;
-    margin: auto;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    width: 35%;
-  }
-  .text-container {
-    text-align: center;
-    display: inline-flex;
-  }
-  .unibody-text {
-    font-family: $body-font;
-    padding-left: 4rem;
-    //text-align: left;
-    width: 45%;
-    h3 {
-      font-weight: bold;
+    width: 50%;
+    min-height: 45vh;
+    img {
+      height: 40vh;
     }
   }
-  .head-body-text {
+  .mascot-type-text {
+    margin-top: 3rem;
     font-family: $body-font;
-    padding-left: 1.75rem;
-    //text-align: left;
-    width: 45%;
-    h4 {
-      font-weight: bold;
-    }
+    font-weight: bold;
   }
   .build-quote-back, .build-quote-back-two  {
     align-self: flex-start;
