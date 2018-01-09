@@ -55,7 +55,7 @@ function toggleFilter() {
 
 $('.build-quote-next-one').on('click' , function() {
   $('.page-one').hide();
-  $('.mascot-type').css( {display: 'block'} );
+  $('.mascot-type').show();
 
 });
 
@@ -112,6 +112,13 @@ $('.build-quote-back-detail-type').on('click', function() {
   $('.mascot-detail-type').hide(); 
   $('.mascot-body-type').css("display", "flex");
 });
+
+$('.build-quote-next-detail-type').on('click', function() {
+
+  $('.mascot-detail-type').hide();
+  $('.build-quote .wpcf7').show();
+  $('.build-quote .wpcf7 .hidethis').hide();
+})
 
 $('.build-quote-back').on('click', function() {
   $('.mascot-type').hide(); 

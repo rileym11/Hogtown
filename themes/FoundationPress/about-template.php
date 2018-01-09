@@ -15,7 +15,7 @@
         </picture>
 
         <div class="team-about-text">
-        <?php echo '<p>' . CFS()->get( 'our_story' ) . '</p>' ?>
+        <?php echo '<p>' . CFS()->get( 'team_about' ) . '</p>' ?>
         </div>
     </section>
     <section class='owners-content-container'>
