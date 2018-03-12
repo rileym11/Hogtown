@@ -199,7 +199,7 @@ get_header(); ?>
       <p class="whats-next">Whats next?</p>
       <p class="quote-text-block"> To take the next step in ordering your custom mascot, fill out the form below and we'll get in touch with a detailed quote and sketch.</p>
     </div>
-    <?php echo do_shortcode(' [contact-form-7 id="66" title="Build A Quote"] ') ?>
+    <?php echo do_shortcode(' [contact-form-7 id="60" title="BYO"] ') ?>
 </div>
    <?php get_footer();
 ?>
